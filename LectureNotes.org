@@ -1,0 +1,112 @@
+#+TITLE: EDUCTN 750/1 Notes
+#+AUTHOR: Curtis D'Alves
+
+* Expectations for Co-Facilitating Class Discussion
+ - Sign-up sheet https://docs.google.com/spreadsheets/d/1u74JQ-X58bcsbA_pnwgQL9QaJr5sv9nc_qOjFoKza-E/edit?usp=sharing
+ - You will facilitate a 20-minute discussion on the required readings/viewings
+   for the week you've selected - budget your time!
+   - Facilitate a class discussion - not other learning strategies
+   - Provide a brief summary (5 min no more, in addition to 20 min of
+     discussion)
+ - *Collaborate* with other facilitators signed up for that week to develop a
+   set of discussion questions focused on key takeaways
+ - Ensure all learners are given an opportunity to participate
+ - After the discussion, you will receive peer feedback on both your questions
+   and your facilitation
+   
+* Week01
+** Andrews' (1980) Four Categories for Classifying Questions
+*** Question Level
+  Cognitive skills required to answer the question 
+   | *Low Level*                                | *High Level*                                             |
+   +--------------------------------------------+----------------------------------------------------------+
+   | Rote memory of simply rephrasing materials | Requires operations of analysis,synthesis and evaluation |
+   | e.g. who are the main characters in hamlet | e.g. what about Laerte's role... could he be left out of |
+   |                                            | the book and it would still be Hamlet?                   |
+
+*** Convergence/Divergence
+   Number of acceptable answers that are implied in the question
+   | *Convergence*                               | *Divergence*                          |
+   +---------------------------------------------+---------------------------------------+
+   | - Implies there is a single answer          | - A number of plausible answers       |
+   | - Increases risk, and requires more time to | - Safer to venture a viewpoint, and   |
+   | think through a response                    | more spontaneity in responses         |
+   | e.g What is the boiling point of water      | e.g. What happens when you boil water |
+
+*** Structure
+    Whether it provides contexts/guidelines through which the learner can
+    prepare an answer
+    | *Unstructured*                               | *Structured*                                |
+    +----------------------------------------------+---------------------------------------------+
+    | - Wide open                                  | - Directs the learner to specific           |
+    |                                              | approaches/subject areas                    |
+    | - Requires more time to organize response    | - Arrive at response more quickly           |
+    | e.g. What did you think of the bridge design | e.g. What are some factors that contributed |
+    |                                              | to the failing of the bridge?               |
+
+*** Straightforwardness
+    Amount of related information interspersed with the question
+    | *Multiple*                               | *Straightforward*                                |
+    +------------------------------------------+--------------------------------------------------+
+    | - Contains several questions or is       | - Singular in nature, allowing learners to focus |
+    | interspersed with background information | on one issue at a time                           |
+    | - Unlikely learners wjill know what is   | - Increases likelihood learners have heard the   |
+    | being asked of them or hear the          | question as stated                               |
+    | questions as stated                      |                                                  |
+
+* Week02
+
+** Understanding by Design
+   - Lessons, units and courses should be logically inferred from the results
+     sought, not derived from the methods, books ,and activities with which we
+     are most comfortable
+   - the best designs derive backward from the learnings sought
+   - Many teachers remain focused on the inputs (textbooks, favored lessons,etc)
+     rather than the output (desired results)
+   - Another name for this is /content/-focused vs /results/-focused
+   - *twin-sins of traditional design*:
+     - *activity oriented design* leads to "hands-on without being minds-on"
+       engaging experiences that lead only accidentally (if at all) to insight
+     - *coverage approach* has students march through a textbook in an attempt to
+       traverse through all factual material within a prescribed time
+   - In neither the above cases can students see: What's the point? What does
+     this help us understand or be able to do? To what does this relate? What's
+     the big idea here? Why should we learn this?
+*** Three Stages of Backward Design
+**** Stage 1: Identify desired results
+     - What should students know, understand, be able to do?
+     - Consider our goals, examine established content standards
+       (national,state,district), and review curriculum expectations
+**** Stage 2: Determine acceptable evidence
+     - How will we know if students have achieved the desired results?
+     - What will we accept as evidence of student understanding and proficiency?
+**** Stage 3: Plan learning experiences and instruction
+     - think through the most appropriate instruction activities while thinking
+       about:
+       - What enabling knowledge (facts,concepts, principles) and skills
+         (processes,procedures,strategies) will students need?
+       - What activities will equip students with the needed knowledge and skills?
+       - What will need to be taught and coached?
+       - What materials and resources are best suited to accomplish these goals?
+
+** Intended Learning Outcomes (ILOs)
+   Statements that specify what the learner will know and be able to do by the
+   end of the learning experience, can be divided into 3 components:
+   - *Action Verb*: identifies the depth of learning expected and beings to
+     inform learners about how they will apply the knowledge/skill they have gained
+   - *Statement specifying the learning to be demonstrated*: should be a skill
+     or particular knowledge on a topic
+   - *Statement giving context/linking to activities and/or assessments*:
+     (optional)
+*** Example:
+    - Analyze
+    - the research design of a peer-reviewed journal article
+    - by completing the article Evaluation worksheet
+
+*** Smart ILOs
+    Every ILO should be Smart:
+    - Specific
+    - Measurable
+    - Action Oriented
+    - Results-Oriented
+    - Timely and Tangible
