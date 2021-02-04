@@ -110,3 +110,51 @@
     - Action Oriented
     - Results-Oriented
     - Timely and Tangible
+
+* Week 03
+  See [[file:./assessemnts/week03/]], worksheet all about difference online
+  resources like avenue, teams, webex, zoom, etc
+  
+* Week 04
+
+** Active Learning
+   Doing + Reflection
+    - "involving students in doing things and thinking about what they're doing"
+      Bonwell & Einson
+
+*** 4 Key Elements
+    1) Critical thinking
+    2) Individual responsibility for learning
+    3) Involvement in open-ended flexible activities
+    4) Organization and facilitation of leaning activities by the instructor
+
+*** Why use active learning?
+    Active learning can:
+    - provide more frequent and immediate feedback for students
+    - Provide opportunies for students to discuss content and learn from one
+      another
+    - Facilitate students' skill development
+    - Encourage students to consider how content applies to real word
+      situations
+    - Create a sense of community
+
+*** The Segmented Lecture
+    
+    |-------------------+-----------------+-------------------+-----------------+-------------------|
+    | Lecture (<15 min) | Active Learning | Lecture (<15 min) | Active Learning | Lecture (<15 min) |
+    |-------------------+-----------------+-------------------+-----------------+-------------------|
+  
+*** Considerations when Introducing Active Learning
+   Ensure the active learning activity is:
+   - Normalized at an early point in the course
+   - Authentically connected to course content and skill development, with clear
+     value to students
+   - Focused on a few key ideas
+   - Supportive of all students (make sure the classroom is a welcoming
+     non-discrimitory space)
+
+** Measuring actual learning versus feeling learning
+   - Despite scoring hiring on test scores with active learning, students resist
+     active learning expressing preference for passive instruction
+   - Students in active classes perceived that they learned less, when in
+     reality they learned more

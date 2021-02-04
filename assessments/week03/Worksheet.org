@@ -1,0 +1,130 @@
+*An Overview of McMaster Supported Teaching Technologies Worksheet*
+
+/After you complete each section of the workshop, please take a moment
+to answer the questions associated with the teaching technology in this
+worksheet./
+
+/Once you have responded to all of the questions, please submit this
+document to the “An Overview of McMaster Supported Teaching Technologies
+-- Worksheet Assignment Submission Folder” on the workshop's Avenue to
+Learn site./
+
+_Avenue to Learn_
+
+1. What are the main functions of Avenue to Learn?
+
+2. For which contexts or tasks is it well-suited?
+
+/(Bold or highlight those which apply, or delete those which do not)/
+
+#+begin_quote
+  synchronous engagement
+
+  asynchronous engagement
+
+  assessments
+
+  video creation
+#+end_quote
+
+3. List 2 ways Avenue to Learn might be used in a course.
+
+_Microsoft Teams_
+
+1. What are the main functions of Microsoft Teams?
+
+2. For which contexts or tasks is it well-suited?
+
+/(Bold or highlight those which apply, or delete those which do not)/
+
+#+begin_quote
+  synchronous engagement
+
+  asynchronous engagement
+
+  assessments
+
+  video creation
+#+end_quote
+
+3. List 2 ways Microsoft Teams might be used in a course.
+
+_MacVideo_
+
+1. What are the main functions of MacVideo?
+
+2. For which contexts or tasks is it well-suited?
+
+/(Bold or highlight those which apply, or delete those which do not)/
+
+#+begin_quote
+  synchronous engagement
+
+  asynchronous engagement
+
+  assessments
+
+  video creation
+#+end_quote
+
+3. List 2 ways MacVideo might be used in a course.
+
+_Echo360_
+
+1. What are the main functions of Echo360?
+
+2. For which contexts or tasks is it well-suited?
+
+/(Bold or highlight those which apply, or delete those which do not)/
+
+#+begin_quote
+  synchronous engagement
+
+  asynchronous engagement
+
+  assessments
+
+  video creation
+#+end_quote
+
+3. List 2 ways Echo360 might be used in a course.
+
+_WebEx_
+
+1. What are the main functions of WebEx?
+
+2. For which contexts or tasks is it well-suited?
+
+/(Bold or highlight those which apply, or delete those which do not)/
+
+#+begin_quote
+  synchronous engagement
+
+  asynchronous engagement
+
+  assessments
+
+  video creation
+#+end_quote
+
+3. List 2 ways WebEx might be used in a course.
+
+_Zoom_
+
+1. What are the main functions of Zoom?
+
+2. For which contexts or tasks is it well-suited?
+
+/(Bold or highlight those which apply, or delete those which do not)/
+
+#+begin_quote
+  synchronous engagement
+
+  asynchronous engagement
+
+  assessments
+
+  video creation
+#+end_quote
+
+3. List 2 ways Zoom might be used in a course.

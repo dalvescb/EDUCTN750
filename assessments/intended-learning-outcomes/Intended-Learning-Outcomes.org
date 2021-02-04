@@ -1,0 +1,42 @@
+#+TITLE: CS 1XA3: Intended Learning Outcomes
+#+AUTHOR: Curtis D'Alves
+#+DATE: Feb 4th, 2021
+
+#+OPTIONS: toc:nil
+#+LaTeX_CLASS: customarticle
+
+Computer Science 1XA3 is an experiential learning based course designed to teach
+students common tools/skills utilized in the practice of software engineering
+while learning about underlying theoretical computer science concepts. Students
+are expected to already have a beginners knowledge of the python programming
+language (previuos or concurrent enrollment in CS 1MD3 is recommended)
+
+#+LaTeX: \vspace{3mm}
+#+LaTeX: \noindent 
+CS 1XA3 has the following Intended Learning Outcomes, i.e. 
+- students should have the practical skills to
+  + Use Un*x command line interfaces to navigate, create and manipulate filesystems
+  + Analyze permissions and modes of Un*x filesystems
+  + Apply changes to permissions and modes of Un*x filesystems
+  + Use ssh/scp to access remote servers
+  + Use the Un*x commands grep/find to locate files/text in large filesystems
+  + Use the Un*x commands top*/ps/kill to manage system processes
+  + Investigate network connections using the Un*x command netstat
+  + Manage a code base using git version control
+  + Design and implement a simple webpage using HTML, CSS and Javascript
+  + Design and implement a simple web server application using the python Django framework
+  + Design and implement a simple SQL database
+ 
+- and students should have enough working knowledge of computer science concepts to
+  + Recognize corresponding tree data structures in file systems
+  + Recognize corresponding directed graph data structures in git revision commit history
+  + Define regular expressions for string enumeration/matching
+  + Recognize basic UI principals used in webpage design
+  + Define conceptual models (using UML Diagrams) corresponding to module
+    relationships in python code
+  + Define basic relational algebra equations corresponding to SQL queries 
+
+
+
+#  LocalWords:  Un XA ssh scp webpage ps grep netstat Javascript Django
+#  LocalWords:  previuos
