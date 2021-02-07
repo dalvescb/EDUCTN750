@@ -36,7 +36,14 @@ CS 1XA3 has the following Intended Learning Outcomes, i.e.
     relationships in python code
   + Define basic relational algebra equations corresponding to SQL queries 
 
+Learning outcomes for practical skills are largely cummulative, i.e. use of
+command line tools will be necessary to use version control which will be
+necessary to manage your code to build webpages, which is in turn necessary to
+have a functioning server which is also in turn necessary to implement a
+database. Therefore evaluation of skills acquired will be reinforced by
+evaluation of subsequent skills. Furthermore learning outcomes for computer
+science concepts underly the use of corresponding practical skills
 
 
 #  LocalWords:  Un XA ssh scp webpage ps grep netstat Javascript Django
-#  LocalWords:  previuos
+#  LocalWords:  previuos cummulative demonstratable

@@ -1,0 +1,78 @@
+#+TITLE: Discussion Facilitation
+
+* Assessment Description
+
+Once during the course, you will facilitate a 20-minute discussion based
+on the week's reading(s)/viewing(s). (*Note:* This does not include the
+brief content videos Megan & Michelle have created for the week, only
+external readings or videos.) As a facilitator, you will stimulate group
+discussion by developing and asking at least one thought-provoking
+question per required reading/viewing, and then moderating the
+discussion (such as by calling on those who wish to speak and keeping an
+eye on the time). You should include a brief summary, no more than 5
+minutes, of the reading(s)/viewing(s) at the beginning of your
+discussion; this introduction will be in addition to the 20-minute
+discussion, for a total of 25 minutes of class time. You will receive
+peer feedback on both your questions and your facilitation skills
+following the discussion.
+
+You will collaborate with the other facilitators signed up for that week
+to develop a brief summary and create a set of quality discussion
+questions. These questions will be developed together; then, each
+facilitator will use the questions to independently conduct a discussion
+with some of their peers. The questions you ask should require your
+peers to think critically about the key take-aways from the
+reading(s)/viewing(s). Each question should meet the four criteria for
+quality discussion questions: high-level; divergent; structured; and
+straight-forward. Please refer to the materials for Week 1, particularly
+the handouts Question Wording Chart and What Questions Engage Students
+to help you meet each of these criteria. You should also consider ways
+to provide the questions to your peers for reference during the
+discussion, balancing the need to see one another as we converse!
+
+* Intended Learning Outcomes
+
+1. Facilitate and engage in discussion on theory and good practices in
+   teaching and learning
+
+8. Reflect on key scholarly topics of relevance to post-secondary
+   education
+
+* Due Date
+
+You will sign up for a synchronous (live) session and its associated
+topic in the first week of class; this will be the day you facilitate
+discussion.
+
+* Completion Checklist
+
+** DONE Discussion Facilitation: Sign up for a date and topic following the live session on Jan. 14
+   CLOSED: [2021-02-07 Sun 16:31]
+
+** DONE Discussion Facilitation: Connect with your peers who have also signed for that date and topic
+   CLOSED: [2021-02-07 Sun 16:31]
+
+** TODO Discussion Facilitation: Complete all of the required readings/external viewings for your week
+
+** TODO Discussion Facilitation: Co-create a facilitation plan that includes:
+
+  - A brief summary of the reading(s)/viewing(s) -- *no more than 5
+    minutes*
+
+  - At least one _quality_ discussion question per reading -- *meeting
+    all 4 criteria*
+
+  - A method to share the questions for everyone's reference during
+    discussion
+
+** TODO Discussion Facilitation: Submit your facilitation plan to Avenue by 9am on the Wednesday before
+  your facilitated discussion
+
+  - Have one facilitator submit the plan, with all group member names
+    included in the file
+
+** TODO Discussion Facilitation: Attend the live session and facilitate one of the small group
+  discussions on your chosen day!
+
+** TODO Discussion Facilitation: Receive feedback from your peers and reflect on your questions and
+  facilitation skills
