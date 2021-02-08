@@ -158,3 +158,146 @@
      active learning expressing preference for passive instruction
    - Students in active classes perceived that they learned less, when in
      reality they learned more
+
+* Week 05
+  
+** Universal Design for Learning in Postsecondary Education
+  - *Universal design* involves designing products, buildings, or environments so
+    they can be used readily by the widest range of users.
+  - Universal design has been well established in architecture and other domains
+    (i.e. *built environments*) but lags behind in the *learning environment*.
+  - This lag may reflect the reality that the *idea* of universal design transfers
+    readily from the built environment to the learning environment but it's
+    *principles* and *techniques* do not
+
+
+*** Assistive technologies
+    specifically designed to assist individuals with disabilities in overcoming
+    barriers in their environment
+    
+    - Universal design focuses on eliminating barriers through initial designs
+      that consider the needs of diverse people, rather than overcoming barriers
+      later through individual adaptation (i.e. avoids Assistive technologies
+      that are put there to overcome an unnecessary barrier)
+
+
+*** Accessible pedagogy as three specific and central considerations
+    - the means of representing information
+    - the means for students' expression of knowledge
+    - the means of engagement in learning 
+
+*** Universal Design for Learning vs Universal Design in other domains
+    The principles central to UDL focus on learning, and thus are different from
+    the well-known principles for making the physical environment universally designed
+
+*** Three Principles for UDL
+**** Principle One: Multiple Means of Representation
+     Students differ in the way they perceive and comprehend information, and
+     there is no common optimal means of representing information to address
+     diverse learners' need. Hence multiple means of representation of
+     information that cover as many modes of accessibility as possible is key
+     
+**** Principle Two: Multiple Means of Expression
+     Students differ in the ways they can navigate a learning environment and
+     express what they know, many students are able to express themselves much
+     more capably in one medium than another (i.e. audio or video editing rather
+     than writing). This is just one aspect of expression in UDL however, it
+     must also deal with accessible alternatives to the various scaffolds and
+     supports provided for student learning (i.e. providing alternatives in
+     mentoring, modeling various scaffolding that can gradually be release as
+     students gain competency, and feedback)
+
+     - TL;DR: reflects the fact there is no one means of expression that will be
+       optimal for all students, nor one kind of scaffolding or support that
+       will help them as they learn to express themselves
+       
+**** Principle Three: Multiple Means of Engagement
+    Students differ in the ways in which they are engaged or motivated to learn.
+    This is both extrinsic (adding motivating elements to the learning
+    environment) and intrinsic (students must also develop internal standards
+    and motivation, which requires more subtle rewards of accomplishment and
+    choice)
+     
+*** Basis for UDL and it's Principles
+    - The framework for UDL is based in findings from cognitive neuroscience that
+      tell us about the needs of individual learners.
+    - The three principles reflect the basic neurology of the learning brain,
+      broadly speaking, they reflect three general components:
+      + one that learns to recognize objects or patterns in the external
+        environment (*Recognition Networks*)
+      + one that learns to generate effective patterns of action or response
+        (*Strategic Networks*)
+      + one that learns to evaluate the significance or importance of possible
+        patterns we encounter or generate (*Affective Networks*)
+
+*** Applications of UDL in a University Course
+    The paper details a case study of a semester long course:
+    - *T-560: Meeting the Challenge of Individual Differences*
+    - Offered at Harvard Graduate School of education, 2004-2005
+    - 93 graduate students registered, with diverse background and interests
+    - Majority of students came three ares:
+      + human development (especially mind, brain and education)
+      + technology in education
+      + teaching and curriculum development
+**** Applying UDL Principles to Course Lectures
+***** Lectures
+     - Lecture's play an important role, good lectures use not just speech but facial expression,
+       gesture and body motion to further convey meaning and affect, as well as
+       additional media such as Power-Point
+     - Alternative representations of lectures are provided, differing in the
+       kinds of problems they seek to address, the ease of implementation, and
+       the kinds of technologies they require
+       + lecturers are assisted by sign language interpreters
+       + lecturer attempts to also orally describe visuals
+       + each lecture is videotaped and distributed via the course web site
+       + student notes are collected and displayed for everyone
+     - Good lecturers use a variety of techniques to make their structure more
+       explicit and memorable, and to reduce the cognitive load required, i.e.
+       + using more repetition than in written text
+       + explicitly stating structure
+       + explicitly summarizing where the argument has come so far
+***** Power Point
+     - Power-Point slides are a nearly constant accompaniment and used in two
+       primary ways:
+       + to clarify and make explicit the structure of the talk (don't overuse
+         the slides in "bullet-point" where speaker simply reads slides to
+         audience). Text should mainly be used to introduce a new topic or
+         summarize a previous section, i.e. they provide structure not substance
+       + During the main part of lectures, slides are primarily graphic or
+         visuals
+***** Discussion Groups
+     - Discussion Groups are applied with UDL principles in mind by:
+       + having students choose among different discussion groups (also all are optional)
+       + having "review" sessions where no new info is presented but students
+         ask questions and participate in guided review discussions, express
+         concerns, etc
+       + having "advanced" sessions that discuss something that extends or
+         challenges material (assuming students already know it)
+       + students have choice of medium, face-to-face or online
+***** Textbooks
+     - Textbooks are not promising foundation for UDL because inherently
+       inflexible, but are still used for their virtues, also
+       + two textbooks are chosen that cover the same topics, syllabus
+         recommends student purchase and read only one of them
+       + one book is available online
+***** Multimedia (the course Website)
+     - A course website is used as a frame that holds the syllabus, the
+       assignments, the discussion groups, the projects, the class notes, the
+       class videos, the PowerPoint slides and much more
+     - An advantage of websites is the rich set of media of which they are
+       constructed, the course website contained not only links to readings but
+       other high quality websites that can be highly engaging
+***** Assessment Methods
+     - Considering assessment in UDL focuses on the second principle: providing
+       multiple means of action and expression
+     - Students complete two projects which they are graded on:
+       + midterm project that requires them to review the research literature on
+         one type of learner and to create a website. 
+       + final project to design a lesson or curriculum that considers the
+         profile of the learner in their first projects
+     - The projects can be not only text, but also images, sound, video, the web
+       and so forth. The word count is limited to 1500. When finished must
+       submit in form of website
+
+
+#  LocalWords: UDL WebSite Website PowerPoint website websites
