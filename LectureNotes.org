@@ -180,7 +180,6 @@
       later through individual adaptation (i.e. avoids Assistive technologies
       that are put there to overcome an unnecessary barrier)
 
-
 *** Accessible pedagogy as three specific and central considerations
     - the means of representing information
     - the means for students' expression of knowledge
@@ -299,5 +298,47 @@
        and so forth. The word count is limited to 1500. When finished must
        submit in form of website
 
+** The Myth of Learning Styles
 
-#  LocalWords: UDL WebSite Website PowerPoint website websites
+   - There is no credible evidence that learning styles exist
+   - The claim at the center of *learning-styles theory* is this: Different
+     students have different modes of learning, and their learning could be
+     improved by matching one's teaching with that preferred learning mode
+   - Although the definition of "modes of learning" has changed over it's 50
+     years of use, the most popular current conception equates style with the
+     preferred bodily sense through which one receives information (be it
+     visual, auditory, or kineshetic)
+   - The article acknowledges three true claims from learning theorists:
+     + learners are different from each other, these differences affect their
+       performances and teachers should take these differences into account
+     + students differ in their interests
+     + students differ in their background knowledge 
+   - So claiming learning styles do not exist is not saying that all learners
+     are the same, but the emphasis on learning styles comes at the cost of
+     attention to other important dimensions
+   - The article asserts the following claims in learning style theory are wrong
+     + learners have preferences about how to learn that are independent of both
+       ability and content and have meaningful implications for their learning
+     + learning could be improved by matching the mode of instruction to the
+       preferred learning style of the student
+   - The article asserts the burden of proof is on the learning styles theorists
+     and is unfulfilled, and we should only bring ideas from laboratory into
+     teaching if:
+     + we are sure that the laboratory phenomena exist under at least some
+       conditions
+     + we understand how to usefully apply these laboratory phenomena to
+       instruction
+   - The article asserts the belief in learning styles persists because of two
+     positive consequences stemming from the true claims of learning theorists:
+     + teachers should take into account the differences in learners' ability
+     + learning styles fits into an egalitarian view of education: everyone has
+       value and strengths
+   - Learning styles theory also persists because it has succeeded in becoming
+     "common knowledge"
+   - The article asserts there are opportunity costs to embracing learning
+     styles theory, in summary we present information in the most appropriate
+     manner for our content and for the level of prior knowledge, ability and
+     interests of the particular set of students
+
+   
+#  LocalWords: UDL WebSite Website PowerPoint website websites kineshetic
