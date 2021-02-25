@@ -348,7 +348,7 @@
   Teaching Philosophy statements clearly communicate our beliefs about teaching
   and learning, why we hold these beliefs, and how we translate them into practice 
   
-***  What Does a Teaching Philosophy Statement Look Like?
+*** What Does a Teaching Philosophy Statement Look Like?
     Teaching philosophies are typically one to two-page reflective documents
     written as first-person narratives. They can be broken down into an
     introductory section that summarizes core beliefs and why you hold them, a
@@ -435,7 +435,10 @@
     1. What does it mean to be a good teacher and learner in a university context? What does good
        teaching and learning look like in my context?
 
-    
+       - A good teacher simultaneously guides students through content (i.e.
+         what concepts they need to know and in what order) while inspiring them
+         to critically engage with said content. 
+
     2. Who or what has influenced my thinking about good teaching?
 
        
@@ -454,4 +457,38 @@
        beliefs and practices?
 
 
-    
+*** Lecture: Guiding Questions
+**** 1. 
+     Missed this
+     
+**** 2. The Learner & The Student-Teacher Relationship
+     - How do students learn? How do I help them learn?
+       Students learn through applying concepts (i.e. in exercises or through
+       performance) that have been presented to them (i.e. through lectures,
+       textbooks, etc). A teacher helps students learn by providing them with
+       this material (both the presentation of concepts and how to apply them)
+       in a guided framework
+     - What's the student's role in the classroom/learning environment?
+       The students role is to engage with the material presented to them in a
+       timely fashion and seek help when needed
+     - My relationship with my students is as a mentor that can provide them
+       with the guidance needed to learn what concepts in what order and from
+       where 
+     - Missed this
+
+**** 3. Your Approach to Teaching & Evaluation
+     - What methods do I use to teach? To assess?
+       + I teach through example, identifying an interesting problem to solve
+         and illustrating how I approach and solve said problem while
+         highlighting important concepts I use along the way. I assess by
+         observing students ability to do the same, i.e. not just solving a
+         problem but how they arrive at the solution and their ability to
+         understand underlying concepts used to do so
+     - What are my strengths in teaching? In assessment?
+       + My strengths in teaching are my ability to work through a problem in
+         real time, not perfectly but with mis-steps that I can correct and turn
+         into a learning experience. My strengths in assessment is my ability to
+         see where students are failing/misunderstanding, even if they are able
+         to arrive at a correct solution
+     - How do I know if students are learning? How do they know?
+       + Missed this
