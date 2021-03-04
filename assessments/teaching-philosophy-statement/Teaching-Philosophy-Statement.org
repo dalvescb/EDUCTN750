@@ -1,0 +1,13 @@
+#+TITLE: Teaching Philosophy Statement
+#+AUTHOR: Curtis D'Alves
+#+DATE: March 11, 2021
+
+#+OPTIONS: toc:nil
+#+LaTeX_CLASS: customarticle
+
+
+* Introduction (Beliefs)
+
+* Strategies
+
+* Conclusion (Impact / Future Goals)

@@ -456,25 +456,48 @@
     6. What do I want readers of my teaching philosophy statement to remember most about my
        beliefs and practices?
 
-
+       
 *** Lecture: Guiding Questions
-**** 1. 
-     Missed this
-     
+**** 1. Defining Teaching and Learning
+     - What are my beliefs about teaching?
+       + Broadly speaking teaching is any form of assisted learning. When a person
+         assumes the role of teacher, they take on the responsibility of guiding
+         a learners experience. Conversely the learner must engage in a certain
+         degree of trust with the teacher.
+         
+     - What is good teaching?
+       + Good teaching is effective teaching, i.e. teaching that effectively
+         results in the learner gaining the knowledge / understanding of
+         concepts being taught
+         
+     - What is my role as teacher?
+       + 
+
+     - Why do I hold these beliefs?
+       + 
+
+     - What experiences have influenced my teaching and/or my beliefs?
+       + 
+         
 **** 2. The Learner & The Student-Teacher Relationship
      - How do students learn? How do I help them learn?
-       Students learn through applying concepts (i.e. in exercises or through
-       performance) that have been presented to them (i.e. through lectures,
-       textbooks, etc). A teacher helps students learn by providing them with
-       this material (both the presentation of concepts and how to apply them)
-       in a guided framework
+       + Students learn through applying concepts (i.e. in exercises or through
+         performance) that have been presented to them (i.e. through lectures,
+         textbooks, etc). A teacher helps students learn by providing them with
+         this material (both the presentation of concepts and how to apply them)
+         in a guided framework
      - What's the student's role in the classroom/learning environment?
-       The students role is to engage with the material presented to them in a
-       timely fashion and seek help when needed
-     - My relationship with my students is as a mentor that can provide them
-       with the guidance needed to learn what concepts in what order and from
-       where 
-     - Missed this
+       + The students role is to engage with the material presented to them in a
+         timely fashion and seek help when needed
+     - What is my relationship with my students? How do I foster this relationship?
+       + My relationship with my students is as a mentor that can provide them
+         with the guidance needed to learn what concepts in what order and from
+         where 
+     - What is important in student-teacher interaction?
+       + An optimal student-teacher interaction provides the student with the
+         confidence and direction needed to attempt to tackle the problem at
+         hand, while feeling comfortable enough to re-approach the teacher
+         whenever a road-block is next encountered 
 
 **** 3. Your Approach to Teaching & Evaluation
      - What methods do I use to teach? To assess?
@@ -491,4 +514,9 @@
          see where students are failing/misunderstanding, even if they are able
          to arrive at a correct solution
      - How do I know if students are learning? How do they know?
-       + Missed this
+       + 
+     - How does my discipline influence my teaching? My assessments?
+       + 
+     - How do my teaching methods complement my teaching context
+       (institutional,departmental,disciplinary?) My assessments?
+       + 
