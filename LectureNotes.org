@@ -430,54 +430,37 @@
      self-reflection; consult scholarly literature on teaching & learning;
      engage in meaningful conversations with colleagues; identify clear goals
      for strengthening your teaching practice.
-
-*** Worksheet: Developing A Philosophy Statement
-    1. What does it mean to be a good teacher and learner in a university context? What does good
-       teaching and learning look like in my context?
-
-       - A good teacher simultaneously guides students through content (i.e.
-         what concepts they need to know and in what order) while inspiring them
-         to critically engage with said content. 
-
-    2. Who or what has influenced my thinking about good teaching?
-
-       
-    3. When have I felt most engaged and affirmed in my teaching?
-
-       
-    4. What strategies do I use in my role? What do these say about my beliefs about teaching and
-       learning?
-
-       
-    5. What two to three key beliefs do I hold about teaching and learning in my context? What
-       matters most to me?
-
-       
-    6. What do I want readers of my teaching philosophy statement to remember most about my
-       beliefs and practices?
-
        
 *** Lecture: Guiding Questions
 **** 1. Defining Teaching and Learning
      - What are my beliefs about teaching?
-       + Broadly speaking teaching is any form of assisted learning. When a person
-         assumes the role of teacher, they take on the responsibility of guiding
-         a learners experience. Conversely the learner must engage in a certain
-         degree of trust with the teacher.
+       + Broadly speaking teaching is a form of assisted learning when one
+         person assumes the role of teacher. When a person assumes the role of
+         teacher, they take on the responsibility of guiding a learners
+         experience. Conversely the learner must engage in a certain degree of
+         trust with the teacher.
          
      - What is good teaching?
        + Good teaching is effective teaching, i.e. teaching that effectively
          results in the learner gaining the knowledge / understanding of
-         concepts being taught
+         concepts being taught. 
          
      - What is my role as teacher?
-       + 
+       + A teacher broadly fulfills two roles; an instructional role that
+         directs/guides students through learning material, and a reinforcement
+         role that challenges and assesses students progress, supporting them
+         when they fail.
 
      - Why do I hold these beliefs?
-       + 
+       + My beliefs about teaching are formulated from personal experience as
+         both student and teacher.
 
      - What experiences have influenced my teaching and/or my beliefs?
-       + 
+       + Both of my parents were high school teachers. As a child I often heard
+         my parents discuss concerns for different troubled students over the
+         dinner table. I was always aware of the responsibility they felt to
+         their students and as I grew older I came to recognize this quality in
+         other teachers that stuck out in my mind as "good" teachers. 
          
 **** 2. The Learner & The Student-Teacher Relationship
      - How do students learn? How do I help them learn?
@@ -514,9 +497,122 @@
          see where students are failing/misunderstanding, even if they are able
          to arrive at a correct solution
      - How do I know if students are learning? How do they know?
-       + 
+       + On-going assessment and feedback let's me and my students know if they
+         are learning. It's important to intersperse assessment activities with
+         learning in such a way that the student feels they are continuously
+         receiving feedback on their learning progress.
      - How does my discipline influence my teaching? My assessments?
-       + 
+       + Fortunately computer science is a prime field to implement a learning
+         environment with frequent, on-going assessment during the learning
+         experience. Learning environments for computer science should always
+         focus around interfacing with a computer, which is capable of
+         automating a great deal of feedback. 
      - How do my teaching methods complement my teaching context
        (institutional,departmental,disciplinary?) My assessments?
        + 
+
+* Week 07
+** Constructing a Learner-Centered Syllabus
+   The first day of class is usually an overview of the course syllabus, after
+   which you might ask yourself "What is the purpose of my syllabus? My Students
+   seemed very disengaged today. Why? Now that I think of it, the syllabus
+   doesn't match who I am as a teacher. Why not?"
+
+   There is an increasing amount of available research on best practices in
+   syllabi construction. A growing body of research practice suggests that
+   learner-centered syllabi can have several positive impacts.
+
+*** Purpose of a Syllabus: Historical Review
+    - syllabus is views as a contract, i.e. defines and establishes the
+      respective duties, roles and responsibilities of the students and teacher
+    - syllabus is considered a permanent record that contains all the details
+      and accurate information about the course requriments and content
+    - syllabus can serve as a cognitive map and learning tool for students
+*** How to Construct a Learner-Centered Syllabus
+    - Begin with a teacher centered syllabus and convert to a learner-centered one
+    - Cullen and Harris (2009) describe several key qualities of a
+      learner-centered syllabus, including:
+      + the major factors that establish community (e.g. accessibility of the
+        teacher, the role of collaboration and a learning rationale)
+      + those that define the balance of power and control between student and
+        teacher (e.g., the teacher’s role, the student’s role, outside
+        resources, and syllabus focus)
+      + those of evaluation and assessment nt (e.g., grades, feedback
+        mechanisms, evaluation, desired learning outcomes, and revision/redoing)
+
+        
+* Week 09
+  
+** Conditions Under Which Assessment Supports Students' Learning
+*** The dominant influence of assessment
+    They are strategic in their use of time and ‘selectively negligent’ in avoiding
+    content that they believe is not likely to be assessed. It has been claimed
+    that students have become more strategic with their use of time and energies
+    since the 1970s and more, rather than less, influenced by the perceived
+    demands of the assessment system in the way they negotiate their way through
+    their studies (MacFarlane, 1992).
+*** The role of Coursework Assignments
+    - Students tend to gain higher marks from coursework assignments than they do
+      from examinations
+    - Students also prefer coursework. Starr (1970) reported that 90% of students
+      from four departments preferred half or more of their marks to come from
+      Coursework and 56% preferred all their marks to come from Coursework
+    - Coursework marks are a better predictor of long term learning of
+      course content than are exams
+    - in experimental studies in which students have either studied exam-based
+      or assignment-based courses, the quality of their learning has been shown
+      to be higher in the assignment-based courses.
+*** The decline of formative assessment
+    Resource constraints in conventional universities have led to a reduction in the
+    frequency of assignments, in the quantity and quality of feedback and in the
+    timeliness of this feedback. 
+*** The effectiveness of feedback
+    In a comprehensive review of 87 meta-analyses of studies of what makes a
+    difference to student achievement, Hattie (1987) reports that the most
+    powerful single influence is feedback.
+
+    School-based research has identified lists of effects of formative assessment
+    such as the one below, based on Gagne (1977):
+      1.Reactivating or consolidating prerequisite skills or knowledge prior to introducing the new
+        material
+      2.Focusing attention on important aspects of the subject
+      3.Encouraging active learning strategies
+      4.Giving students opportunities to practise skills and consolidate learning
+      5.Providing knowledge of results and corrective feedback
+      6.Helping students to monitor their own progress and develop skills of
+        self-evaluation
+      7.Guiding the choice of further instructional or learning activities to
+        increase mastery
+      8.Helping students to feel a sense of accomplishment
+      
+      The conditions outlined here refer to two relatively distinct categories of
+      influence:
+        • the influence of the design of assessment systems and assignments on
+          how much students study, what they study and on the quality of their
+          engagement
+        • the influence of feedback on learning.
+
+*** Influences of assessment on the volume, focus and quality of studying
+    - *Condition 1* Sufficient assessed tasks are provided for students to
+      capture sufficient study time
+    - *Condition 2* These tasks are engaged with by students, orienting them to
+      allocate appropriate amounts of time and effort to the most important
+      aspects of the course
+    - *Condition 3* kling the assessed task engages students in productive
+      learning activity of an appropriate kind
+*** Influence of feedback on learning
+    - *Condition 4* Sufficient feedback is provided, both often enough and in enough detail
+    - *Condition 5* feedback focuses on students’ performance, on their learning
+      and on actions under the students’ control, rather than on the students
+      themselves and on their characteristics
+    - *Condition 6* feedback is timely in that it is received by students while
+      it still matters to them and in time for them to pay attention to further
+      learning or receive further assistance
+    - *Condition 7* feedback is appropriate to the purpose of the assignment and
+      to its criteria for success
+    - *Condition 8* feedback is appropriate, in relation to students’ understanding
+      of what they are supposed to be doing
+    - *Condition 9* feedback is received and attended to
+    - *Condition 10* feedback is acted upon by the student
+    
+#  LocalWords:  Coursework

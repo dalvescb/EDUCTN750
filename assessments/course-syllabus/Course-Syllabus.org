@@ -1,0 +1,265 @@
+#+TITLE: CS 1XA3: Course Syllabus
+#+AUTHOR: Curtis D'Alves
+#+DATE: March 18th, 2021
+
+#+OPTIONS: toc:nil
+#+LaTeX_CLASS: customarticle
+    
+* Course Description
+  
+Computer Science 1XA3 is an experiential learning based course designed to teach
+first year students common tools/skills utilized in the practice of software
+engineering while learning about underlying theoretical computer science
+concepts. Students are expected to already have a beginners knowledge of the
+python programming language (previous or concurrent enrollment in CS 1MD3 is
+recommended)
+
+** Instructor (Contact Info)
+   - Curtis D'Alves, Ph.D Candidate @ McMaster University
+   - Office Hours: in ITB 229 (no specific hours, but please email before
+     dropping by)
+   - Email: curtis.dalves@gmail.com
+
+** Lecture/Lab Sessions
+
+ | *Lectures*        | Fr 9:30AM    | 10:20AM in BSB B135 |
+ | *Lab Section L01* | TuFr 2:30PM  | 4:30PM in BSB 249   |
+ | *Lab Section L02* | TuTh 9:30AM  | 11:30AM in BSB 244  |
+ | *Lab Section L03* | MoWe 9:30AM  | 11:20AM in KTH B123 |
+ | *Lab Section L04* | MoTh 12:30PM | 2:30PM in KTH B123  |
+
+** Lecture Sessions
+   There will be a single Lecture session each week presenting concepts in
+   computer science interleaved with discussion sessions on these topics.
+   Students will be broken up into groups for guided discussion sessions and
+   brainstorm answers that will be presented in class by a volunteer
+** Lab Sessions
+   There will be two Lab sessions each week. The first session each week will be a Lab
+   Activity session that students will complete with TA assistance as needed and
+   the second session will present practical programming content with
+   live coding demonstrations (that students will be encouraged to follow along
+   with).
+   
+* Course Schedule with topics
+| Week           | Lecture                                   | Activity             | Lab                   |
+|----------------+-------------------------------------------+----------------------+-----------------------|
+| Jan 6 - 12     | McMaster ECCS / Intro Un*x Systems        | Installation Session | Course Overview       |
+| Jan 13 - 19    | Shells, FileSystems and Trees             | Terminus Game        | SSH Activity          |
+| Jan 20 - 26    | Version Control, Git and Graphs           | FileSystems          | Git Repo Creation     |
+| Jan 27 - Feb 2 | Streams, Processes and Permission Systems | Git                  | Intro Shell Scripting |
+| Feb 3 - 9      | Regular Expressions                       | Scripting 1          | Shell Scripting Cont. |
+| Feb 10 - 16    | UI Design                                 | Proj.1 Help          | HTML/CSS              |
+| Feb 17 - 23    | *Midterm Recess!*                         | *Midterm Recess!*    | *Midterm Recess!*     |
+| Feb 24 - Mar 2 | Object Oriented Programming               | Simple Webpage       | JavaScript            |
+| Mar 3 - 9      | Model Driven Development                  | JavaScript           | JavaScript Cont.      |
+| Mar 10 - 16    | Client-Server Model                       | Proj. 2 Help         | Http Requests Django  |
+| Mar 17 - 23    | Network Protocols / Routing               | Django 1             | Django Cont.          |
+| Mar 24 - 30    | Relational Algebra                        | Django 2             | Databases             |
+| Mar 31 - Apr 6 | Cryptography / Signing / Key Exchange     | Proj. 3 Help         | User Authentication   |
+| Apr 7 - 13     | *CLASSES END*                             | *CLASSES END*        | *CLASSES END*         |
+
+** Important Deadlines
+   |                          | Date Due (by 11:59pm) |
+   |--------------------------+-----------------------|
+   | GitHub Repo Registration | Jan 26                |
+   | Proj. 1 Part 1           | Feb 2                 |
+   | Proj. 1 Part 2           | Feb 16                |
+   | Proj. 2 Part 1           | Mar 2                 |
+   | Proj. 2 Part 2           | Mar 16                |
+   | Proj. 3                  | Apr 20                |
+
+   #+LATEX: \noindent
+   *NOTE* structure and proper organization (including tentative deadlines) is
+    important for maximizing your learning experience in this course. However
+    should you require an extension please don't hesitate to contact the
+    me (curtis.dalves@gmail.com) to work out a more flexible schedule
+    
+* Assessment and evaluation structure
+   Grades will be calculated using the following criteria
+   | Project 1       | 15% |
+   | Project 2       | 15% |
+   | Project 3       | 20% |
+   | Labs Activities | 40% |
+   | Participation   | 10% |
+  
+** Projects
+   You will submit 3 projects each in 2 parts:
+     - Project 1 will be a Bash Scripting activity
+     - Project 2 will have you design a client side web app using
+       Javascript/HTML/CSS
+     - Project 3 a "full-stack" web app using Python Django and SQL.
+   You will host the projects on GitHub and your commit history will be analyzed
+   as part of your final mark (frequent, well spaced out commits will gain you
+   more marks). For further details refer to the project outlines that will be
+   posted on Avenue to Learn.
+
+** Lab Activities
+   There are a total of 8 Lab Activities that will be completed synchronously
+   (in-class) in the first lab session of each week. TA's will be available to
+   assist you through the activities, and full marks will be given for each
+   successful completion. Should you miss a lab activity, you may contact a TA
+   about completing it asynchronously over Discord.
+
+** Participation
+   Participation marks can be earned in the following ways:
+     - Sharing notes on a lecture session (upload to avenue)
+     - Sharing notes on a (non-activity) lab session (upload to avenue)
+     - Answering a live lecture/lab question
+     - Creating and sharing a coding activity relevant to the lab content
+   If you consider each of the above to be worth 1 "Participation Mark", there
+   are a total of 5 Participation Marks to earn throughout the semester. This
+   makes each Participation Mark worth 2% of your final grade. If you have
+   another idea for how you would prefer to earn Participation Marks, please to
+   hesitate to contact the instructor about it.
+   
+* Intended Learning Outcomes
+CS 1XA3 has the following Intended Learning Outcomes, i.e. 
+- students should have the practical skills to
+  + Use Un*x command line interfaces to navigate, create and manipulate
+    filesystems, ssh/scp to access remote servers and the Un*x commands
+    top*/ps/kill to manage system processes
+  + Investigate network connections using the Un*x command netstat
+  + Manage a code base using git version control
+  + Design a simple webpage using HTML, CSS and Javascript, then a web server
+    application using the python Django framework, and a simple SQL database 
+ 
+- and students should have enough working knowledge of computer science concepts to
+  + Recognize corresponding tree data structures in file systems, directed graph
+    data structures in git revision commit history and basic UI principals used
+    in webpage design
+  + Define regular expressions for string enumeration/matching, conceptual
+    models (using UML Diagrams) corresponding to module relationships in python
+    code and basic relational algebra equations corresponding to SQL queries
+
+#+LATEX: \noindent
+Learning outcomes for practical skills are largely cummulative, i.e. use of
+command line tools will be necessary to use version control which will be
+necessary to manage your code to build web pages, which is in turn necessary to
+have a functioning server which is also in turn necessary to implement a
+database. Therefore evaluation of skills acquired will be reinforced by
+evaluation of subsequent skills. Furthermore learning outcomes for computer
+science concepts underly the use of corresponding practical skills
+
+* Course Requirements
+** Course Prerequisites
+  - High school calculus 
+  - Current or previous enrollment is CS 1MD3 *OR* sufficient knowledge of the
+    python programming language (instructors permission required for the latter)
+      
+** Course Expectations
+   Throughout the course, students are expected to
+   - get to know and use your peers (fellow classmates) as a resource 
+   - seek out ways to extend the core objectives of a project to suit your
+     learning needs
+   - consult the instructor before attempting to implement features that may be too difficult
+   - organize your work so that your assignments are done in a timely manner (as
+     will be evident by your GitHub commit history)
+   - follow instructions for submitting assignments included in the assignment outlines
+   - students are responsible to ensure all code they submit compiles (on the mac1xa3.ca
+     server) before submission *FAILURE TO SUBMIT CODE THAT COMPILES CAN RESULT
+     IN A MARK OF ZERO*
+     
+** Resources
+*** Mandatory 
+   You are required to create specialized accounts for the following services
+   - [[http://avenue.mcmaster.ca/][Avenue to Learn]]: will serve as the course webpage. All announcements and
+     course content (including slides, grades, project templates) will be posted
+     there. Please check it regularly
+   - [[https://github.com][GitHub]]: a free, public repository with version control you will be using to
+     store your source code for your assignments
+     * Click the link above, sign up for an account (if you don't already have
+       one)
+     * Sign up for *GitHub Student Developer Pack* by following the instructions
+       here
+       - [[https://help.github.com/en/github/teaching-and-learning-with-github-education/applying-for-a-student-developer-pack]])
+     * Create a *private repository* named CS1XA3
+     * From the repositories main page, go to Settings / Collaborators
+     * Search for me, dalvescb, and add me as a collaborator
+     * Message me on Discord with your Repo URL and Mac ID
+     * *YOU MUST REGISTER YOUR GITHUB REPO BEFORE THE END OF THE WEEK 2*
+   - [[https://discordapp.com/][Discord]]: an instant messaging service that's very popular among gamers but
+     also to some extent project developers
+     * Join the CS1XA3_2020 Discord with the following link https://discord.gg/PjGEY3f
+   - [[https://mac1xa3.ca]]: a Ubuntu based server, you can *ssh* into it using your Mac Id
+     and the first 8 characters of your student number as password (message me
+     on discord if you cannot connect). Once you've logged into the server, used
+     the command *passwd* to change your password
+*** Recommended
+   - [[https://www.ubuntu.com][Ubuntu]]: a very popular linux OS
+   - [[https://docs.microsoft.com/en-us/windows/wsl/install-win10][Windows Subsystem for Linux]]: a new and very convenient way to run Linux
+     from within Windows
+   - [[https://www.spacemacs.org/][Spacemacs]]: a distribution of emacs that combines the power of vim, my
+     editor of choice
+   - [[https://stackoverflow.com][StackOverflow]]: every hackers best friend, a Q&A forum for all things coding
+   - [[https://desktop.github.com/][GitHub Desktop]]: a graphical app that makes doing basic operations with
+     GitHub quick and painless
+   - Suggest other resources on discord for participation marks
+   
+* University Policies
+** Missed Work / MSAF Policy     
+   In the event of an absence for medical or other reasons, students should
+   review and follow the Academic Regulation in the Undergraduate Calendar
+   “Requests for Relief for Missed Academic Term Work”.
+
+   Students are expected to contact the instructor (see Contact Info) to request
+   relief for missed marked work, as well as follow the official McMaster policy
+   for submission of MSAF's (see [[https://www.mcmaster.ca/msaf/)]].
+   
+   Relief for the following works can be provided:
+   - *Projects* will receive a 3 day extension
+   - *Lab Activities* will have their marks shifted onto the rest of the labs
+
+** Usage of On-Line Resources Policy
+  In this course we will be using Avenue to learn and Discord messaging system.
+  Students should be aware that, when they access the electronic components of
+  this course, private information such as first and last names, user names for
+  the McMaster e-mail accounts,and program affiliation may become apparent to
+  all other students in the same course. The available information is dependent
+  on the technology used. Continuation in this course will be deemed consent to
+  this disclosure. If you have any questions or concerns about such disclosure
+  please discuss this with the course instructor.
+  
+** Academic Ethics
+
+   You are expected to exhibit honesty and use ethical behaviour in all aspects of the learning process. Academic credentials you earn are rooted in principles of honesty and academic integrity. 
+   Academic dishonesty is to knowingly act or fail to act in a way that results or could result in unearned academic credit or advantage.
+   This behaviour can result in serious consequences, e.g. the grade of zero on an assignment, loss of credit with a notation on the transcript
+   (notation reads: “Grade of F assigned for academic dishonesty”), and/or suspension or expulsion from the university. It is your responsibility to 
+   understand what constitutes academic dishonesty.
+   For information on the various types of academic dishonesty please refer to the Academic Integrity Policy, located at http://www.mcmaster.ca/academicintegrity.
+   The following illustrates only four forms of academic dishonesty:
+   1. Plagiarism, e.g. the submission of work that is not one’s own or for which other credit has been obtained.
+   2. Collaboration where individual work is expected. You are allowed, and encouraged, to collaborate on the exercise questions. (The tutorials are typically not expected to cover all exercise questions.)
+   3. Improper collaboration in group work.
+   4. Copying or using unauthorised aids in tests and examinations.
+
+   *Note*: Although you may use code found online for your assignments, you must reference your source in the projects README. Grades for assignments that are entirely or mostly others code will reflect such.
+   
+** Academic Accommodation of Students with Disabilites
+   Students who require academic accommodation must contact Student Accessibility Services (SAS) to make arrangements with a Program Coordinator. 
+   Academic accommodations must be arranged for each term of study. Student Accessibility Services can be contacted by phone 905-525-9140 ext. 
+   28652 or e-mail sas@mcmaster.ca. For further information, consult McMaster University’s [[http://www.mcmaster.ca/policy/Students-AcademicStudies/AcademicAccommodation-StudentsWithDisabilities.pdf][Policy for Academic Accommodation of Students with Disabilities]]
+   
+** Academic Accommodation For Religious, Indigenous Or Spiritual Observances (RISO)
+  Students requiring academic accommodation based on religious, indigenous or
+  spiritual observances should follow the procedures set out in the RISO policy.
+  Students requiring a RISO accommodation should submit their request to their
+  Faculty Office normally within 10 working days of the beginning of term in which
+  they anticipate a need for accommodation or to the Registrar's Office prior to
+  their examinations. Students should also contact their instructors as soon as
+  possible to make alternative arrangements for classes, assignments, and tests
+  
+** Discrimination
+   “The Faculty of Engineering is concerned with ensuring an environment that is free of all adverse discrimination. If there is a problem that cannot be resolved by discussion among the persons concerned, individuals are reminded that they should contact the Department Chair, the Sexual Harassment Office or the Human Rights Consultant, as soon as possible.”
+
+** Disclaimer / Course Changes
+   The instructor and university reserve the right to modify elements of the
+   course during the term. The university may change the dates and deadlines for
+   any or all courses in extreme circumstances. Changes will be communicated
+   through regular McMaster communication channels, such as McMaster Daily News,
+   A2L and/or McMaster email. It is the responsibility of the student to check
+   their McMaster email and course websites weekly during the term and to note
+   any changes.
+    
+#  LocalWords:  Un XA ssh scp webpage ps grep netstat Javascript Django TODO
+#  LocalWords:  cummulative demonstratable gamers GitHub
