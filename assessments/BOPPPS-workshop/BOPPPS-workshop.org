@@ -1,0 +1,58 @@
+#+TITLE: BOPPPS Workshop
+#+AUTHOR: Curtis D'Alves
+
+* Pre-Planning
+
+** Who is your audience of learners?
+    First year undergraduate computer science students
+    
+*** Do you know what their accessibly needs are?
+    No, but I assume they are capable of using computer interfaces
+
+** How long will you have to deliver the lesson, from start to finish?
+   50 min
+      
+** In what format will the lesson delivered?
+   Online, asynchronously, all content will be accessible via the course web page
+   (or Avenue)
+
+** What teaching support and resources do you have available to you for the lesson?
+   A course web page and server (that I administrate myself)
+
+** Does your Faculty/Department/Organization have its own parameters and expectations for the lesson?
+   No, however the lesson is aligned with the intended learning outcomes for the
+   course it belongs to
+
+
+* The BOPPPS Model of Lesson Planning
+  | *B*: Bridge-In                  | A brief introduction to the broader topic to be covered |
+  |                                 | during the lesson                                       |
+  | *O*: Intended Learning Outcomes | What you want your learners to know or be               |
+  |                                 | able to do by the end of the lesson                     |
+  | *P*: Pre-Assessment             | Determines your learners' existing abilities with       |
+  |                                 | respect to the intended learning outcomes               |
+  | *P*: Participatory Learning     | Engages the learners as active participants in          |
+  |                                 | the learning process                                    |
+  | *P*: Post-Assessment            | Indicates whether the learners have achieved the        |
+  |                                 | lesson's intended learning outcomes                     |
+  | *S*: Summary                    | Summaries the key take-aways from the lesson            |
+
+** Bridge-In
+   The first element of a BOPPPS lesson is the bridge-in, which is simply a
+   brief introduction to the broader topic to be covered during the lesson.
+   
+   Here is an example of what a bridge may look like for a lesson:
+   #+BEGIN_EXAMPLE
+   Bridge for a lesson on heart health: Nine our of every ten Canadians have at
+   least one risk factor for heart disease and stroke. Moreover, almost 80% of
+   premature heart disease and stroke can be prevented through healthy
+   behaviours. One healthy behaviour that has a big impact on heart health is
+   eating healthy. In this lesson, you will learn all about what it means to eat
+   healthy and how to make eating healthy a habit.
+   #+END_EXAMPLE
+   
+** Outcomes
+   See lecture notes on intended learning outcomes
+
+   
+#  LocalWords:  min Pre BOPPPS
