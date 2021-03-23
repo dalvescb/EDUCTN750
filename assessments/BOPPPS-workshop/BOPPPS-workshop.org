@@ -52,7 +52,66 @@
    #+END_EXAMPLE
    
 ** Outcomes
-   See lecture notes on intended learning outcomes
+   See [[file:../../LectureNotes.org][Lecture Notes]] on intended learning outcomes 
+
+** Pre-Assessment   
+   A pre-assessment helps you to determine the level of background knowledge or
+   experience that your learners have regarding the subject matter of your
+   lesson and the ILOs before most of your learning activities begin.
+
+   There are many options to choose from with respect to pre-assessments. You
+   could administer a brief online poll, quiz, or survey, or you could even do
+   something as simple as ask your learners to rate their current confidence in
+   their ability to do each of the ILOs that you articulate for a lesson 
+
+** Participatory Learning
+   A lesson plan should have learning activities built into it so that the
+   learner will be an active participant in their own learning. See [[file:../../LectureNotes.org][Lecture
+   Notes]] on Active Learning for details
+
+** Post-Assessment
+   There are two primary types of assessment that you should be able to
+   distinguish between – formative assessment and summative assessment.
+
+   - *Formative assessment* is used to monitor learning. It provides ongoing
+     feedback that you can use to improve upon your teaching, and that your
+     learners can use to improve upon their learning. Essentially, formative
+     assessments help you to figure out where your learners are struggling,
+     which permits you to immediately address those problem areas. For your
+     learners, formative assessments help them to identify their strengths and
+     weaknesses, and thus to identify areas where there is room for improvement.
+     Usually, formative assessments are low stakes, meaning that they have low
+     or no point value.
+     + *Some examples of formative assessments are*: asking learners to draw a
+       diagram depicting the relationships between the key concepts in a lesson
+       subtopic; and asking learners to write and submit a few sentences
+       outlining what they feel to be the main point of a lesson subtopic*
+       (https://www.cmu.edu/teaching/assessment/basics/formative-summative.html).
+       Most of the active learning strategies described in this unit could be
+       used as formative assessments.
+
+   - *Summative assessment* is used to evaluate learning at the end of an
+     educational experience by comparing it against some standard or benchmark.
+     Usually, summative assessments are high stakes, meaning that they have a
+     high point value.
+     + *Some examples of summative assessments are*: a final quiz, and a final
+       project. Information from summative assessments can be used formatively
+       when instructors use it to guide how they go about developing and
+       delivering subsequent offerings
+       (https://www.cmu.edu/teaching/assessment/basics/formative-summative.html).
+       This is something that’s highly encouraged.
+
+** Summary
+
+  Finally, the summary gives you the opportunity to revisit key points from your
+  lesson - to remind the learners what they should now know or be able to do. It
+  also draws your lesson to a close.
+
+  For example, in thinking back to the example that was given for the bridge-in
+  earlier, if you were giving a lesson on heart health you could review the key
+  take-aways regarding how to eat healthy and make healthy eating a habit, and
+  then note that now that the learners are equipped with that knowledge, they can
+  work to prevent premature heart disease and stroke.
 
    
-#  LocalWords:  min Pre BOPPPS
+#  LocalWords:  min Pre BOPPPS Summative summative pre
