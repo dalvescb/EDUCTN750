@@ -1,0 +1,226 @@
+* Header :ignore:
+# -*- mode: org; -*-
+
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js@3.9.0
+# #+REVEAL_ROOT: /home/dalvescb/reveal.js/
+# #+REVEAL_THEME: league
+#+REVEAL_THEME: sky
+
+#+OPTIONS: reveal_title_slide:auto num:nil toc:nil timestamp:nil
+
+#+MACRO: color @@html:<font color="$1">$2</font>@@
+#+MACRO: alert @@html:<font color="navy">$1</font>@@
+#+MACRO: small @@html:<h3><font color="navy">$1</font></h3>@@
+#+MACRO: smaller @@html:<h4>$1</h4>@@
+
+#+REVEAL_PLUGINS: (highlight)
+
+# #+REVEAL_EXTRA_CSS: ./mystyle.css
+# #+REVEAL_EXTRA_CSS: /Users/curtis/reveal.js/css/theme/night.css
+
+# To load Org-reveal, type “M-x load-library”, then type “ox-reveal”.
+
+
+#+Title: {{{alert(A Short Intro to Using Un*x Systems)}}}  
+#+Email: curtis.dalves@gmail.com
+#+Author: {{{smaller(Curtis D'Alves)}}}
+
+#+REVEAL_TITLE_SLIDE_TEMPLATE:"<h6>%t<\h6>"
+
+# NOTE: these options to correct for resolution (just adjusting reveal_margin should be sufficient)
+# #+REVEAL_MARGIN: 0.5
+# #+REVEAL_MIN_SCALE: 1.0
+# #+REVEAL_MAX_SCALE: 1.0
+
+** Overview
+   | *Part 1:* | How to access remote servers via ssh           |
+   | *Part 2:* | How to Navigate/Manipulate a Un*x Filesystem   |
+   | *Part 3:* | How to create and execute a simple bash script |
+     
+* Part 1: How to access remote servers via ssh
+** Unix and Unix-Like (AKA Un*x) Systems
+   - Unix is a {{{alert(family of Operating Systems)}}} that all
+     {{{alert(conform to the Single UNIX Specification)}}}
+   - The terminology {{{alert(Un*x)}}} or {{{alert(Unix-Like)}}} is used to
+     refer to *THE MANY* systems that are very similar to Unix but
+     {{{alert(don't fully conform to the standard)}}}
+   - Examples of {{{alert(Unix-Like Systems)}}} include MacOS and Linux Variant Systems
+
+** Evolution of Un*x
+   [[file:figures/EvolutionUnix.png]]
+
+** Remote Login With SSH
+   - From a terminal, one can ssh into a hypothetical domain {{{alert(http://somedomain.com)}}} with user account 
+     {{{alert(username)}}} like so 
+#+BEGIN_SRC bash
+ssh username@somedomain.com
+# enter password prompt
+# do some work
+exit
+#+END_SRC
+
+** Investigate OS Info     
+   - Find out info about an OS with the following command
+#+BEGIN_SRC bash
+uname -a
+#+END_SRC
+   - Which will list the following info (in order)
+     - kernel name
+     - network hostname
+     - kernel release, kernel version
+     - machine, processor, hardware-platform
+     - operating system
+       
+** CHALLENGE       
+   {{{alert(SSH into a server\, investigate it's OS information and then exit)}}}
+   
+* Part 2: How to Navigate/Manipulate a Un*x Filesystem
+** Navigating File Paths
+- {{{alert(File Paths)}}} specify file locations through directories seperated by a backslash
+#+BEGIN_SRC bash
+/path/to/file.txt
+#+END_SRC
+- {{{alert(Special File Paths)}}} (certain characters are reserved for special paths)
+#+BEGIN_SRC bash
+cd /   # Root directory
+cd ~   # Home directory
+cd .   # Current directory
+cd ..  # Previous directory
+#+END_SRC
+
+** Basic File Browsing Commands
+   These commands will help you get around
+#+BEGIN_SRC bash
+cd /path/to
+  # change current directory
+
+ls
+  # List current directory contents
+
+pwd
+  # Show parent directory (where am I?)
+#+END_SRC
+
+** Absolute vs Relative File Paths
+- {{{alert(Absolute)}}} file paths begin with a backslash        
+#+BEGIN_SRC bash
+cd ~
+cd /some/path
+pwd 
+  # /some/path
+#+END_SRC
+- {{{alert(Relative)}}} file paths *DO NOT* begin with a backslash
+#+BEGIN_SRC bash
+cd ~
+cd some/path
+pwd
+  # ~/some/path
+#+END_SRC
+
+** File/Directory Manipulation
+  Basic file manipulation operations you might want to perform on a file / directory
+  - Creation
+  - Deletion
+  - Copy 
+  - Move
+
+** File/Directory Creation
+  The following commands create a file / directory
+#+BEGIN_SRC bash
+touch somefile.txt
+  # create an empty file
+
+mkdir somedir
+  # create a new directory
+#+END_SRC
+  {{{alert(Note)}}}: you can also create a new file using an code editor
+
+** File/Directory Deletion
+   The following commands delete a file / directory
+#+BEGIN_SRC bash
+rm somefile.txt
+  # deletes a file
+
+rm -r somedir
+  # delete a new directory
+#+END_SRC 
+  {{{color(red,Warning)}}}: there's no coming back from *rm*
+
+** File/Directory Copy
+   The following commands copy a file / directory
+#+BEGIN_SRC bash
+cp somefile1.txt somefile2.txt
+  # copy a file
+
+cp -r somdir1 somdir2
+  # copy a directory
+#+END_SRC
+  {{{alert(Note)}}}: the *-r* flag stands for recursive
+
+** File/Directory Move
+   The following commands move a file / directory
+#+BEGIN_SRC bash
+mv somefile.txt ~/somefile.txt
+  # moves a file to your HOME
+
+mv dir ~/dir
+  # works the same as file
+#+END_SRC
+  {{{alert(Note)}}}: you can also use the *mv* command to *rename* a file
+
+** CHALLENGE       
+   {{{alert(Try and perform the following steps)}}}
+   - Create a directory called *MyDir*
+   - Create another directory called *MyDir2*
+   - Move *MyDir2* into *MyDir*
+   - Create a file called *MyFile*
+   - Create a copy of *MyFile* in *MyDir2*
+     
+* Part 3: How to create and execute a simple bash script
+** Command-line Based Text Editors
+  There's a decent selection of command-line based code editors
+  - Emacs [[https://www.emacswiki.org]]
+  - Vi/Vim [[https://www.vim.org]]
+  - Nano [[https://www.nano-editor.org]]
+
+  {{{alert(Note)}}}: most desktop editors have some method of remote editing,
+  so using terminal-based editors isn't always necessary
+
+** Bash Scripts
+  - Create a file {{{alert(test.sh)}}} and open it in your preferred editor
+  - Fill in the following code
+    #+BEGIN_SRC bash
+    #!/bin/bash
+
+    echo "Hello World!"
+    #+END_SRC
+  - To execute the file, make it an executable with {{{alert(chmod)}}}
+    #+BEGIN_SRC bash
+    chmod +x test.sh
+    #+END_SRC
+  - Then execute it from your shell by preceding the file with {{{alert(./)}}}
+    #+BEGIN_SRC bash
+    ./test.sh
+    #+END_SRC
+     
+** She-Bangs! 
+  - You may have noticed the line beginning with =#!= at the top of our hello
+    world program before
+  - These lines are known as {{{alert(She-Bangs)}}} and are used to specify
+    {{{alert(which interpreter to run a script with)}}} when using the =./=
+    syntax
+  - You can use this to {{{alert(run python files as scripts)}}} as well
+    #+BEGIN_SRC bash
+    #!/usr/bin/python
+
+    print("Hello World")
+    #+END_SRC
+
+** CHALLENGE       
+   {{{alert(Create and execute a bash script that makes a new directory called
+   Test with a single file Test1.txt inside it)}}}
+
+* Summary
+  - Access a remote server through the command line / terminal
+  - Navigate/manipulate a Un*x filesystem
+  - Create, edit and execute a simple bash script

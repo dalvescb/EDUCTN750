@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title><font color="navy">A Short Intro to Using Un*x Systems</font></title>
+<meta name="author" content="@@html:<h4>Curtis D'Alves</h4>@@"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.9.0/css/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.9.0/css/theme/sky.css" id="theme"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.9.0/lib/css/zenburn.css"/>
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js@3.9.0/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<h1 class="title"><font color="navy">A Short Intro to Using Un*x Systems</font></h1><h2 class="author"><h4>Curtis D'Alves</h4></h2>
+</section>
+
+<section>
+<section id="slide-org671ff30">
+<h2 id="org671ff30">Overview</h2>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left"><b>Part 1:</b></td>
+<td class="org-left">How to access remote servers via ssh</td>
+</tr>
+
+<tr>
+<td class="org-left"><b>Part 2:</b></td>
+<td class="org-left">How to Navigate/Manipulate a Un*x Filesystem</td>
+</tr>
+
+<tr>
+<td class="org-left"><b>Part 3:</b></td>
+<td class="org-left">How to create and execute a simple bash script</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section>
+<section id="slide-orgd374148">
+<h2 id="orgd374148">Part 1: How to access remote servers via ssh</h2>
+<div class="outline-text-2" id="text-orgd374148">
+</div>
+</section>
+<section id="slide-org24dca8f">
+<h3 id="org24dca8f">Unix and Unix-Like (AKA Un*x) Systems</h3>
+<ul>
+<li>Unix is a <font color="navy">family of Operating Systems</font> that all
+<font color="navy">conform to the Single UNIX Specification</font></li>
+<li>The terminology <font color="navy">Un*x</font> or <font color="navy">Unix-Like</font> is used to
+refer to <b>THE MANY</b> systems that are very similar to Unix but
+<font color="navy">don't fully conform to the standard</font></li>
+<li>Examples of <font color="navy">Unix-Like Systems</font> include MacOS and Linux Variant Systems</li>
+
+</ul>
+
+</section>
+<section id="slide-org774a446">
+<h3 id="org774a446">Evolution of Un*x</h3>
+
+<div class="figure">
+<p><img src="figures/EvolutionUnix.png" alt="EvolutionUnix.png" />
+</p>
+</div>
+
+</section>
+<section id="slide-org45e9ed8">
+<h3 id="org45e9ed8">Remote Login With SSH</h3>
+<ul>
+<li>From a terminal, one can ssh into a hypothetical domain <font color="navy">http://somedomain.com</font> with user account 
+<font color="navy">username</font> like so</li>
+
+</ul>
+<div class="org-src-container">
+
+<pre><code class=" bash" >ssh username@somedomain.com
+# enter password prompt
+# do some work
+exit
+</code></pre>
+</div>
+
+</section>
+<section id="slide-org5568858">
+<h3 id="org5568858">Investigate OS Info</h3>
+<ul>
+<li>Find out info about an OS with the following command</li>
+
+</ul>
+<div class="org-src-container">
+
+<pre><code class=" bash" >uname -a
+</code></pre>
+</div>
+<ul>
+<li>Which will list the following info (in order)
+<ul>
+<li>kernel name</li>
+<li>network hostname</li>
+<li>kernel release, kernel version</li>
+<li>machine, processor, hardware-platform</li>
+<li>operating system</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+<section id="slide-orgf86d72d">
+<h3 id="orgf86d72d">CHALLENGE</h3>
+<p>
+<font color="navy">SSH into a server, investigate it's OS information and then exit</font>
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-org1514f6c">
+<h2 id="org1514f6c">Part 2: How to Navigate/Manipulate a Un*x Filesystem</h2>
+<div class="outline-text-2" id="text-org1514f6c">
+</div>
+</section>
+<section id="slide-orgeecabdd">
+<h3 id="orgeecabdd">Navigating File Paths</h3>
+<ul>
+<li><font color="navy">File Paths</font> specify file locations through directories seperated by a backslash</li>
+
+</ul>
+<div class="org-src-container">
+
+<pre><code class=" bash" >/path/to/file.txt
+</code></pre>
+</div>
+<ul>
+<li><font color="navy">Special File Paths</font> (certain characters are reserved for special paths)</li>
+
+</ul>
+<div class="org-src-container">
+
+<pre><code class=" bash" >cd /   # Root directory
+cd ~   # Home directory
+cd .   # Current directory
+cd ..  # Previous directory
+</code></pre>
+</div>
+
+</section>
+<section id="slide-org695087e">
+<h3 id="org695087e">Basic File Browsing Commands</h3>
+<p>
+These commands will help you get around
+</p>
+<div class="org-src-container">
+
+<pre><code class=" bash" >cd /path/to
+  # change current directory
+
+ls
+  # List current directory contents
+
+pwd
+  # Show parent directory (where am I?)
+</code></pre>
+</div>
+
+</section>
+<section id="slide-org3f4dc5b">
+<h3 id="org3f4dc5b">Absolute vs Relative File Paths</h3>
+<ul>
+<li><font color="navy">Absolute</font> file paths begin with a backslash</li>
+
+</ul>
+<div class="org-src-container">
+
+<pre><code class=" bash" >cd ~
+cd /some/path
+pwd 
+  # /some/path
+</code></pre>
+</div>
+<ul>
+<li><font color="navy">Relative</font> file paths <b>DO NOT</b> begin with a backslash</li>
+
+</ul>
+<div class="org-src-container">
+
+<pre><code class=" bash" >cd ~
+cd some/path
+pwd
+  # ~/some/path
+</code></pre>
+</div>
+
+</section>
+<section id="slide-org0e2ea70">
+<h3 id="org0e2ea70">File/Directory Manipulation</h3>
+<p>
+Basic file manipulation operations you might want to perform on a file / directory
+</p>
+<ul>
+<li>Creation</li>
+<li>Deletion</li>
+<li>Copy</li>
+<li>Move</li>
+
+</ul>
+
+</section>
+<section id="slide-org3f2c17c">
+<h3 id="org3f2c17c">File/Directory Creation</h3>
+<p>
+The following commands create a file / directory
+</p>
+<div class="org-src-container">
+
+<pre><code class=" bash" >touch somefile.txt
+  # create an empty file
+
+mkdir somedir
+  # create a new directory
+</code></pre>
+</div>
+<p>
+<font color="navy">Note</font>: you can also create a new file using an code editor
+</p>
+
+</section>
+<section id="slide-org69bc3d9">
+<h3 id="org69bc3d9">File/Directory Deletion</h3>
+<p>
+The following commands delete a file / directory
+</p>
+<div class="org-src-container">
+
+<pre><code class=" bash" >rm somefile.txt
+  # deletes a file
+
+rm -r somedir
+  # delete a new directory
+</code></pre>
+</div>
+<p>
+<font color="red">Warning</font>: there's no coming back from <b>rm</b>
+</p>
+
+</section>
+<section id="slide-org647c766">
+<h3 id="org647c766">File/Directory Copy</h3>
+<p>
+The following commands copy a file / directory
+</p>
+<div class="org-src-container">
+
+<pre><code class=" bash" >cp somefile1.txt somefile2.txt
+  # copy a file
+
+cp -r somdir1 somdir2
+  # copy a directory
+</code></pre>
+</div>
+<p>
+<font color="navy">Note</font>: the <b>-r</b> flag stands for recursive
+</p>
+
+</section>
+<section id="slide-org7b415f5">
+<h3 id="org7b415f5">File/Directory Move</h3>
+<p>
+The following commands move a file / directory
+</p>
+<div class="org-src-container">
+
+<pre><code class=" bash" >mv somefile.txt ~/somefile.txt
+  # moves a file to your HOME
+
+mv dir ~/dir
+  # works the same as file
+</code></pre>
+</div>
+<p>
+<font color="navy">Note</font>: you can also use the <b>mv</b> command to <b>rename</b> a file
+</p>
+
+</section>
+<section id="slide-org922a4ca">
+<h3 id="org922a4ca">CHALLENGE</h3>
+<p>
+<font color="navy">Try and perform the following steps</font>
+</p>
+<ul>
+<li>Create a directory called <b>MyDir</b></li>
+<li>Create another directory called <b>MyDir2</b></li>
+<li>Move <b>MyDir2</b> into <b>MyDir</b></li>
+<li>Create a file called <b>MyFile</b></li>
+<li>Create a copy of <b>MyFile</b> in <b>MyDir2</b></li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org219c5ad">
+<h2 id="org219c5ad">Part 3: How to create and execute a simple bash script</h2>
+<div class="outline-text-2" id="text-org219c5ad">
+</div>
+</section>
+<section id="slide-org2559937">
+<h3 id="org2559937">Command-line Based Text Editors</h3>
+<p>
+There's a decent selection of command-line based code editors
+</p>
+<ul>
+<li>Emacs <a href="https://www.emacswiki.org">https://www.emacswiki.org</a></li>
+<li>Vi/Vim <a href="https://www.vim.org">https://www.vim.org</a></li>
+<li>Nano <a href="https://www.nano-editor.org">https://www.nano-editor.org</a></li>
+
+</ul>
+
+<p>
+<font color="navy">Note</font>: most desktop editors have some method of remote editing,
+so using terminal-based editors isn't always necessary
+</p>
+
+</section>
+<section id="slide-org5de8570">
+<h3 id="org5de8570">Bash Scripts</h3>
+<ul>
+<li>Create a file <font color="navy">test.sh</font> and open it in your preferred editor</li>
+<li><p>
+Fill in the following code
+</p>
+<div class="org-src-container">
+
+<pre><code class=" bash" >#!/bin/bash
+
+echo "Hello World!"
+</code></pre>
+</div></li>
+<li><p>
+To execute the file, make it an executable with <font color="navy">chmod</font>
+</p>
+<div class="org-src-container">
+
+<pre><code class=" bash" >chmod +x test.sh
+</code></pre>
+</div></li>
+<li><p>
+Then execute it from your shell by preceding the file with <font color="navy">./</font>
+</p>
+<div class="org-src-container">
+
+<pre><code class=" bash" >./test.sh
+</code></pre>
+</div></li>
+
+</ul>
+
+</section>
+<section id="slide-org11ebf8e">
+<h3 id="org11ebf8e">She-Bangs!</h3>
+<ul>
+<li>You may have noticed the line beginning with <code>#!</code> at the top of our hello
+world program before</li>
+<li>These lines are known as <font color="navy">She-Bangs</font> and are used to specify
+<font color="navy">which interpreter to run a script with</font> when using the <code>./</code>
+syntax</li>
+<li><p>
+You can use this to <font color="navy">run python files as scripts</font> as well
+</p>
+<div class="org-src-container">
+
+<pre><code class=" bash" >#!/usr/bin/python
+
+print("Hello World")
+</code></pre>
+</div></li>
+
+</ul>
+
+</section>
+<section id="slide-org77e59fd">
+<h3 id="org77e59fd">CHALLENGE</h3>
+<p>
+<font color="navy">Create and execute a bash script that makes a new directory called Test with a single file Test1.txt inside it</font>
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-orgf993624">
+<h2 id="orgf993624">Summary</h2>
+<ul>
+<li>Access a remote server through the command line / terminal</li>
+<li>Navigate/manipulate a Un*x filesystem</li>
+<li>Create, edit and execute a simple bash script</li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.9.0/lib/js/head.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.9.0/js/reveal.js"></script>
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+mouseWheel: false,
+fragmentInURL: false,
+hashOneBasedIndex: false,
+pdfSeparateFragments: true,
+
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'convex', // see README of reveal.js for options
+transitionSpeed: 'default',
+
+// Optional libraries used to extend reveal.js
+dependencies: [
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.9.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }]
+
+});
+</script>
+</body>
+</html>
