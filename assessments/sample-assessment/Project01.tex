@@ -1,0 +1,311 @@
+% Created 2021-03-28 Sun 18:29
+% Intended LaTeX compiler: pdflatex
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{geometry}
+\geometry{a4paper,left=2.5cm,top=2cm,right=2.5cm,bottom=2cm,marginparsep=7pt, marginparwidth=.6in}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{minted}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{xcolor-solarized}
+\usepackage{sectsty}
+\sectionfont{\color{blue}}  % sets colour of sections
+\subsectionfont{\color{blue}}  % sets colour of sections
+\author{{\color{blue}Created by: Curtis D'Alves}}
+\date{{\color{blue}Due Date: Part 1 Feb 2, Part 2 Feb 16}}
+\title{{\color{blue}CS 1XA3 Project 01}}
+\hypersetup{
+ pdfauthor={{\color{blue}Created by: Curtis D'Alves}},
+ pdftitle={{\color{blue}CS 1XA3 Project 01}},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.3 (Org mode 9.3.7)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\newpage
+
+\section{Project Setup}
+\label{sec:org4d2f8e8}
+\subsection{Clone Your Repo Into Your Private Directory}
+\label{sec:orgff93b8d}
+You must keep your repo inside of your directory located in \texttt{\$HOME/private} on
+the \texttt{mac1xa3.ca} server
+\begin{itemize}
+\item {\color{red}WARNING} not doing so or changing the default permissions
+on the private directory will be considered academic dishonesty
+\item If you accidentently delete the directory, contact me or one of your TA's (preferably me / dalvescb on discord)
+\end{itemize}
+\subsection{Create a new folder in your repo}
+\label{sec:org8b1c30b}
+On the {\color{purple}master branch}, create a new folder \texttt{CS1XA3/Project01} (where \texttt{CS1XA3} is the already existant root of repo)
+\subsection{Add the folowing files}
+\label{sec:org1a66712}
+\begin{itemize}
+\item Add \texttt{CS1XA3/Project01/project\_analyze.sh}
+\item Add \texttt{CS1XA3/Project01/README.md}
+\end{itemize}
+\subsection{Commit and Push}
+\label{sec:orgd2f559f}
+\begin{itemize}
+\item Add and commit with the following message {\color{purple}EXACTLY} {\color{olive}"Initial Project01 Commit"}
+\item Push to GitHub
+\end{itemize}
+\subsection{Create a Branch}
+\label{sec:org5ec3048}
+\begin{itemize}
+\item Create a branch called {\color{purple}project01}
+\item Push the branch to github (i.e {\color{purple}git push origin project01})
+\item Work from the {\color{purple}project01} branch and {\color{red}only merge with master when your ready to submit Part 1 or Part 2}
+\end{itemize}
+
+\section{Part 1 Submission (Due Feb 2 at 11:59pm)}
+\label{sec:org20408d2}
+Merge to the master branch a {\color{purple}WORKING SCRIPT} that:
+\begin{itemize}
+\item implements at least {\color{purple}20 points} worth of {\color{purple}5 point} features including the
+{\color{purple}Script Input} feature
+\item documents the features you implement and script usage in the {\color{purple}README.md}
+\item documents the {\color{purple}two custom features} you plan to implement (although you
+don't need to implement them yet)
+\item has a commit/merge message {\color{olive}"Submitting Project 01 Part 1"} {\color{purple}EXACTLY}
+\end{itemize}
+{\color{red}WARNING} make sure to push to GitHub to complete your submission 
+
+\section{Part 2 Submission (Due Feb 16 at 11:59pm)}
+\label{sec:org6a76171}
+Merge to the master branch a {\color{purple}WORKING SCRIPT} that:
+\begin{itemize}
+\item implements at least {\color{purple}20 points} more worth of features
+including {\color{purple}at least one 10 point feature}
+\item implements {\color{purple}2 custom features} that should be around the same level of
+difficulty as the {\color{purple}10 point features}
+\item has completed documentation of all features in the {\color{purple}README.md}
+\item has a commit/merge message {\color{olive}"Submitting Project 01 Part 2"} {\color{purple}EXACTLY}
+\end{itemize}
+{\color{red}WARNING} make sure to push to GitHub to complete your submission
+
+\newpage
+
+\section{README}
+\label{sec:orgcf154f9}
+You {\color{purple}MUST} document your code in a file \texttt{CS1XA3/Project01/README.md}
+\begin{itemize}
+\item The document should be styled with {\color{purple}MarkDown} (see
+{\color{cyan}\url{https://guides.github.com/features/mastering-markdown/}})
+\item The document should describe usage of the script (i.e how to execute, with what arguments, under what conditions)
+\item The document should contain a section (header) for each feature (including custom features)
+\item You must reference any code used that was found online with a link to the
+url (failing to do so will be considered academic dishonesty)
+\end{itemize}
+An example of the general outline of the document would be as follows (this is
+not an exact template you need to follow, you are encouraged to use your best
+judgment for constructing a useful README):
+
+
+\begin{verbatim}
+#  CS 1XA3 Project01 - <MyMacId>
+
+## Usage
+   Execute this script from project root with:
+        chmod +x CS1XA3/Project01/project_analyze.sh
+        ./CS1XA3/Project01/project_analyze arg1 arg2 ...
+   With possible arguments
+        arg1: ....
+        arg2: ....
+   ....
+## Feature 01
+ Description: this feature does ....
+ Execution: execute this feature by ...
+ Reference: some code was taken from [[https://someurl.com]]
+
+## Feature 02
+  ...
+## Custom Feature SomeFeature
+  ...
+\end{verbatim}
+
+\newpage
+
+\section{Grading Scheme}
+\label{sec:org30a98f7}
+\begin{center}
+\begin{tabular}{ll}
+README Documentation & \textbf{20\%}\\
+Custom Features & \textbf{40\%}\\
+Other Features & \textbf{40\%}\\
+\end{tabular}
+\end{center}
+{\color{red}WARNING} failure to properly follow instructions (including not cloning
+ your repo to the proper directory, not pushing to GitHub, not using the
+ correct commit message, etc) will result in {\color{purple}A MARK OF 0}
+
+\subsection{Criteria: README Documentation}
+\label{sec:org65f627a}
+\begin{itemize}
+\item {\color{purple}30\%} for using good style (i.e using proper markdown, proper
+sectioning of functionality etc)
+\item {\color{purple}30\%} for specifying execution/usage information correctly
+\item {\color{purple}40\%} for proper detail: what each feature does, as well as
+pitfalls for the feature not functioning correctly, while still be concise
+and not containing superfluous information
+\end{itemize}
+
+\subsection{Criteria: Custom Features}
+\label{sec:org212330d}
+\begin{itemize}
+\item Each of the two custom features is worth {\color{purple}20\%} of the overall project mark
+\item Per each feature:
+\begin{itemize}
+\item {\color{purple}50\%} for the creativity / difficulty level of
+the feature you came up with
+\item {\color{purple}50\%} for implementing the feature correctly
+\end{itemize}
+\end{itemize}
+
+\subsection{Criteria: Other Features}
+\label{sec:org7bca8d6}
+\begin{itemize}
+\item You will implement {\color{purple}40 points} of features directly corresponding
+to {\color{purple}40\%} of your overall project mark
+\item Features will be marked on level of correctness. Partial marks will be
+taken off for failing to include edge case, including but not limited to:
+\begin{itemize}
+\item failing to account for directories/files including special characters
+(i.e whitespace)
+\item failing to account for directories/files not existing / already existing
+\item failing to account for command IO failure
+\end{itemize}
+\end{itemize}
+
+\subsection{Plagiarism / Academic Dishonesty}
+\label{sec:org50347ca}
+Tools will be used to compare your code with your peers (including previous
+years of this course) 
+\begin{itemize}
+\item Stealing a custom feature idea will be considered plagiarism
+\item Using code without referencing the source in your README will be considered
+plagiarism.
+\item Any account of plagiarism will result in an automatic grade of 0
+\end{itemize}
+
+\newpage
+
+\section{Features}
+\label{sec:org5b66760}
+\subsection{Script Input (\textbf{Mandatory}) (5 Points)}
+\label{sec:orga415165}
+\begin{itemize}
+\item Make the script interactive (i.e select which feature(s) are executed)
+either by providing script arguments or by user prompted input
+\item Describe this feature in the {\color{purple}Usage} section of the {\color{purple}README.md} document
+rather than in it's own header
+\end{itemize}
+\subsection{FIXME Log (5 points)}
+\label{sec:org5b52355}
+\begin{itemize}
+\item Find every file in your repo that has the word {\color{purple}\#FIXME} in the last line
+\item Put the list of these file names in  \texttt{CS1XA3/Project01/fixme.log} with each file separated by a newline
+\item Create the file \texttt{CS1XA3/Project01/fixme.log} if it doesn't exist, overwrite
+it if it does
+\end{itemize}
+\subsection{Checkout Latest Merge (5 points)}
+\label{sec:orgcde88c8}
+\begin{itemize}
+\item Find the most recent commit with the word {\color{purple}merge} (case
+insensitive) in the commit message
+\item Automatically checkout that commit (so that you're in a detached head
+state)
+\end{itemize}
+\subsection{File Size List (5 points)}
+\label{sec:org6869260}
+\begin{itemize}
+\item List all files in the repo (just files not directories) and their sizes in
+a human readable format (i.e KB, MB, GB, etc)
+\item List the files sorted from largest to smallest
+\end{itemize}
+\subsection{File Type Count (5 points)}
+\label{sec:org546e8f6}
+\begin{itemize}
+\item Using the read command (with a prompt), prompt the user for an extension
+(i.e txt, pdf, py, etc)
+\item Output the number of files in your repo with that extension
+\end{itemize}
+\subsection{Find Tag (5 points)}
+\label{sec:orgd861ef6}
+\begin{itemize}
+\item Using the read command (with a prompt, prompt the user for a Tag (any
+single word)
+\item Create a log file \texttt{CS1XA3/Project01/Tag.log} (where Tag is the name of the
+Tag provided) if it doesn't already exist, overwrite it if it does
+\item For each python file (i.e ending in {\color{purple}.py}) in the repo, find all lines
+that begin with a comment (i.e \texttt{\#}) and include Tag and put them in \texttt{CS1XA3/Project01/Tag.log}
+\end{itemize}
+\subsection{Switch to Executable (10 points)}
+\label{sec:org6ac54dd}
+\begin{itemize}
+\item Find all shell scripts (i.e ending in {\color{purple}.sh}) in the repo
+\item Create a file \texttt{CS1XA3/Project01/permissions.log} if it doesn't already exist
+\item Using the read command, prompt the user to {\color{purple}Change} or
+{\color{purple}Restore} (use a prompt that tells the user what to do)
+\item If the user selects {\color{purple}Change}:
+\begin{itemize}
+\item For each shell script, change the permissions so that only people who
+have write permissions also have executable permissions (i.e if only
+user has write permissions, then only user has executable permissions)
+\item Store a log of the file and it's original permissions in
+\texttt{CS1XA3/Project01/permissions.log} (overwrite it if it already exists)
+\end{itemize}
+\item If the user selects {\color{purple}Restore}
+\begin{itemize}
+\item Restore each file to its original permissions (as specified in
+\texttt{CS1XA3/Project01/permissions.log})
+\end{itemize}
+\end{itemize}
+\subsection{Backup and Delete / Restore (10 points)}
+\label{sec:org4f43c78}
+\begin{itemize}
+\item Using the read command, prompt the user to {\color{purple}Backup} or
+{\color{purple}Restore} (use a prompt that tells the user what to do)
+\item If the user selects {\color{purple}Backup}:
+\begin{itemize}
+\item Create an empty directory \texttt{CS1XA3/Project01/backup} if it doesn't exit
+\item Empty the directory \texttt{CS1XA3/Project01/backup} if it does exist
+\item Find all files that end in the {\color{purple}.tmp} extension
+\begin{itemize}
+\item copy them to the \texttt{CS1XA3/Project01/backup} directory
+\item delete them from their original location
+\item create a file \texttt{CS1XA3/Project01/backup/restore.log} that contains a
+list of paths of the files original locations
+\end{itemize}
+\end{itemize}
+\item If the user selects {\color{purple}Restore}:
+\begin{itemize}
+\item use the file \texttt{CS1XA3/Project01/backup/restore.log} to restore the files
+to their original location
+\item if the file does not exist, through an error message
+\end{itemize}
+\end{itemize}
+\end{document}

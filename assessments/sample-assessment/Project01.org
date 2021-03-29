@@ -1,0 +1,199 @@
+#+LaTeX_CLASS: customarticle
+#+LATEX_HEADER: \usepackage[dvipsnames]{xcolor}
+#+LATEX_HEADER: \usepackage{xcolor-solarized}
+#+LATEX_HEADER: \usepackage{sectsty}
+#+LATEX_HEADER: \sectionfont{\color{blue}}  % sets colour of sections
+#+LATEX_HEADER: \subsectionfont{\color{blue}}  % sets colour of sections
+# #+LATEX_HEADER: \pagecolor{solarized-base3}
+#+MACRO: color @@latex:{\color{$1}@@$2@@latex:}@@
+
+#+Title: {{{color(blue,CS 1XA3 Project 01)}}}
+#+Author: {{{color(blue,Created by: Curtis D'Alves)}}}
+#+Date: {{{color(blue,Due Date: Part 1 Feb 2\, Part 2 Feb 16)}}}
+#+Email: curtis.dalves@gmail.com
+
+#+LaTeX: \newpage 
+
+* Project Setup
+** Clone Your Repo Into Your Private Directory
+   You must keep your repo inside of your directory located in =$HOME/private= on
+   the =mac1xa3.ca= server
+     - {{{color(red,WARNING)}}} not doing so or changing the default permissions
+       on the private directory will be considered academic dishonesty
+     - If you accidentently delete the directory, contact me or one of your TA's (preferably me / dalvescb on discord)
+** Create a new folder in your repo
+    On the {{{color(purple,master branch)}}}, create a new folder =CS1XA3/Project01= (where =CS1XA3= is the already existant root of repo)
+** Add the folowing files
+   - Add =CS1XA3/Project01/project_analyze.sh=
+   - Add =CS1XA3/Project01/README.md=
+** Commit and Push
+   - Add and commit with the following message {{{color(purple,EXACTLY)}}} {{{color(olive,"Initial Project01 Commit")}}}
+   - Push to GitHub
+** Create a Branch
+   - Create a branch called {{{color(purple,project01)}}}
+   - Push the branch to github (i.e {{{color(purple,git push origin project01)}}})
+   - Work from the {{{color(purple,project01)}}} branch and {{{color(red,only
+     merge with master when your ready to submit Part 1 or Part 2)}}}
+
+* Part 1 Submission (Due Feb 2 at 11:59pm)
+  Merge to the master branch a {{{color(purple,WORKING SCRIPT)}}} that:
+    - implements at least {{{color(purple,20 points)}}} worth of {{{color(purple,5 point)}}} features including the
+      {{{color(purple,Script Input)}}} feature
+    - documents the features you implement and script usage in the {{{color(purple,README.md)}}}
+    - documents the {{{color(purple,two custom features)}}} you plan to implement (although you
+      don't need to implement them yet)
+    - has a commit/merge message {{{color(olive,"Submitting Project 01 Part 1")}}} {{{color(purple,EXACTLY)}}}
+  {{{color(red,WARNING)}}} make sure to push to GitHub to complete your submission 
+  
+* Part 2 Submission (Due Feb 16 at 11:59pm)
+  Merge to the master branch a {{{color(purple,WORKING SCRIPT)}}} that:
+    - implements at least {{{color(purple,20 points)}}} more worth of features
+      including {{{color(purple,at least one 10 point feature)}}}
+    - implements {{{color(purple,2 custom features)}}} that should be around the same level of
+      difficulty as the {{{color(purple,10 point features)}}}
+    - has completed documentation of all features in the {{{color(purple,README.md)}}}
+    - has a commit/merge message {{{color(olive,"Submitting Project 01 Part 2")}}} {{{color(purple,EXACTLY)}}}
+   {{{color(red,WARNING)}}} make sure to push to GitHub to complete your submission
+
+#+Latex: \newpage
+
+* README 
+  You {{{color(purple,MUST)}}} document your code in a file =CS1XA3/Project01/README.md=
+  - The document should be styled with {{{color(purple,MarkDown)}}} (see
+    {{{color(cyan,[[https://guides.github.com/features/mastering-markdown/]])}}})
+  - The document should describe usage of the script (i.e how to execute, with what arguments, under what conditions)
+  - The document should contain a section (header) for each feature (including custom features)
+  - You must reference any code used that was found online with a link to the
+    url (failing to do so will be considered academic dishonesty)
+ An example of the general outline of the document would be as follows (this is
+ not an exact template you need to follow, you are encouraged to use your best
+ judgment for constructing a useful README):
+ 
+ 
+#+BEGIN_EXAMPLE
+#  CS 1XA3 Project01 - <MyMacId>
+
+## Usage
+   Execute this script from project root with:
+        chmod +x CS1XA3/Project01/project_analyze.sh
+        ./CS1XA3/Project01/project_analyze arg1 arg2 ...
+   With possible arguments
+        arg1: ....
+        arg2: ....
+   ....
+## Feature 01
+ Description: this feature does ....
+ Execution: execute this feature by ...
+ Reference: some code was taken from [[https://someurl.com]]
+
+## Feature 02
+  ...
+## Custom Feature SomeFeature
+  ...
+#+END_EXAMPLE
+
+#+Latex: \newpage
+
+* Grading Scheme
+  | README Documentation                                    | *20%* |
+  | Custom Features                                         | *40%* |
+  | Other Features                                          | *40%* |
+   {{{color(red,WARNING)}}} failure to properly follow instructions (including not cloning
+    your repo to the proper directory, not pushing to GitHub, not using the
+    correct commit message, etc) will result in {{{color(purple,A MARK OF 0)}}}
+   
+** Criteria: README Documentation 
+   - {{{color(purple,30%)}}} for using good style (i.e using proper markdown, proper
+     sectioning of functionality etc)
+   - {{{color(purple,30%)}}} for specifying execution/usage information correctly
+   - {{{color(purple,40%)}}} for proper detail: what each feature does, as well as
+     pitfalls for the feature not functioning correctly, while still be concise
+     and not containing superfluous information
+
+** Criteria: Custom Features 
+   - Each of the two custom features is worth {{{color(purple,20%)}}} of the overall project mark
+   - Per each feature:
+     - {{{color(purple,50%)}}} for the creativity / difficulty level of
+       the feature you came up with
+     - {{{color(purple,50%)}}} for implementing the feature correctly
+
+** Criteria: Other Features
+   - You will implement {{{color(purple,40 points)}}} of features directly corresponding
+     to {{{color(purple,40%)}}} of your overall project mark
+   - Features will be marked on level of correctness. Partial marks will be
+     taken off for failing to include edge case, including but not limited to:
+     - failing to account for directories/files including special characters
+       (i.e whitespace)
+     - failing to account for directories/files not existing / already existing
+     - failing to account for command IO failure
+
+** Plagiarism / Academic Dishonesty
+   Tools will be used to compare your code with your peers (including previous
+   years of this course) 
+   - Stealing a custom feature idea will be considered plagiarism
+   - Using code without referencing the source in your README will be considered
+     plagiarism.
+   - Any account of plagiarism will result in an automatic grade of 0
+     
+#+Latex: \newpage
+
+* Features
+** Script Input (*Mandatory*) (5 Points)
+   - Make the script interactive (i.e select which feature(s) are executed)
+     either by providing script arguments or by user prompted input 
+   - Describe this feature in the {{{color(purple,Usage)}}} section of the {{{color(purple,README.md)}}} document
+     rather than in it's own header 
+** FIXME Log (5 points)     
+   - Find every file in your repo that has the word {{{color(purple,#FIXME)}}} in the last line 
+   - Put the list of these file names in  =CS1XA3/Project01/fixme.log= with each file separated by a newline
+   - Create the file =CS1XA3/Project01/fixme.log= if it doesn't exist, overwrite
+     it if it does
+** Checkout Latest Merge (5 points)
+   - Find the most recent commit with the word {{{color(purple,merge)}}} (case
+     insensitive) in the commit message
+   - Automatically checkout that commit (so that you're in a detached head
+     state)
+** File Size List (5 points)
+   - List all files in the repo (just files not directories) and their sizes in
+     a human readable format (i.e KB, MB, GB, etc)
+   - List the files sorted from largest to smallest
+** File Type Count (5 points) 
+   - Using the read command (with a prompt), prompt the user for an extension
+     (i.e txt, pdf, py, etc)
+   - Output the number of files in your repo with that extension
+** Find Tag (5 points)
+   - Using the read command (with a prompt, prompt the user for a Tag (any
+     single word)
+   - Create a log file =CS1XA3/Project01/Tag.log= (where Tag is the name of the
+     Tag provided) if it doesn't already exist, overwrite it if it does
+   - For each python file (i.e ending in {{{color(purple,.py)}}}) in the repo, find all lines
+     that begin with a comment (i.e =#=) and include Tag and put them in =CS1XA3/Project01/Tag.log= 
+** Switch to Executable (10 points)
+   - Find all shell scripts (i.e ending in {{{color(purple,.sh)}}}) in the repo
+   - Create a file =CS1XA3/Project01/permissions.log= if it doesn't already exist
+   - Using the read command, prompt the user to {{{color(purple,Change)}}} or
+     {{{color(purple,Restore)}}} (use a prompt that tells the user what to do)
+   - If the user selects {{{color(purple,Change)}}}:
+     - For each shell script, change the permissions so that only people who
+       have write permissions also have executable permissions (i.e if only
+       user has write permissions, then only user has executable permissions)
+     - Store a log of the file and it's original permissions in
+       =CS1XA3/Project01/permissions.log= (overwrite it if it already exists)
+   - If the user selects {{{color(purple,Restore)}}}
+     - Restore each file to its original permissions (as specified in
+       =CS1XA3/Project01/permissions.log=) 
+** Backup and Delete / Restore (10 points)
+   - Using the read command, prompt the user to {{{color(purple,Backup)}}} or
+     {{{color(purple,Restore)}}} (use a prompt that tells the user what to do)
+   - If the user selects {{{color(purple,Backup)}}}:
+     - Create an empty directory =CS1XA3/Project01/backup= if it doesn't exit
+     - Empty the directory =CS1XA3/Project01/backup= if it does exist
+     - Find all files that end in the {{{color(purple,.tmp)}}} extension
+       - copy them to the =CS1XA3/Project01/backup= directory
+       - delete them from their original location
+       - create a file =CS1XA3/Project01/backup/restore.log= that contains a
+         list of paths of the files original locations
+   - If the user selects {{{color(purple,Restore)}}}:
+     - use the file =CS1XA3/Project01/backup/restore.log= to restore the files
+       to their original location
+     - if the file does not exist, through an error message
