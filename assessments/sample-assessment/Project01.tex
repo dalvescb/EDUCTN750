@@ -1,16 +1,6 @@
-% Created 2021-03-28 Sun 18:29
+% Created 2021-03-29 Mon 21:24
 % Intended LaTeX compiler: pdflatex
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{graphicx}
-\usepackage{longtable}
-\usepackage{hyperref}
-\usepackage{natbib}
-\usepackage{amssymb}
-\usepackage{amsmath}
-\usepackage{geometry}
-\geometry{a4paper,left=2.5cm,top=2cm,right=2.5cm,bottom=2cm,marginparsep=7pt, marginparwidth=.6in}
+\documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
@@ -30,6 +20,8 @@
 \usepackage{sectsty}
 \sectionfont{\color{blue}}  % sets colour of sections
 \subsectionfont{\color{blue}}  % sets colour of sections
+\usepackage{geometry}
+\geometry{a4paper,left=2.5cm,top=4cm,right=2.5cm,bottom=4cm,marginparsep=7pt, marginparwidth=.6in}
 \author{{\color{blue}Created by: Curtis D'Alves}}
 \date{{\color{blue}Due Date: Part 1 Feb 2, Part 2 Feb 16}}
 \title{{\color{blue}CS 1XA3 Project 01}}
@@ -38,7 +30,7 @@
  pdftitle={{\color{blue}CS 1XA3 Project 01}},
  pdfkeywords={},
  pdfsubject={},
- pdfcreator={Emacs 26.3 (Org mode 9.3.7)}, 
+ pdfcreator={Emacs 27.1 (Org mode 9.4.4)}, 
  pdflang={English}}
 \begin{document}
 
@@ -48,9 +40,9 @@
 \newpage
 
 \section{Project Setup}
-\label{sec:org4d2f8e8}
+\label{sec:orgd4cb7b2}
 \subsection{Clone Your Repo Into Your Private Directory}
-\label{sec:orgff93b8d}
+\label{sec:org2c97204}
 You must keep your repo inside of your directory located in \texttt{\$HOME/private} on
 the \texttt{mac1xa3.ca} server
 \begin{itemize}
@@ -59,30 +51,32 @@ on the private directory will be considered academic dishonesty
 \item If you accidentently delete the directory, contact me or one of your TA's (preferably me / dalvescb on discord)
 \end{itemize}
 \subsection{Create a new folder in your repo}
-\label{sec:org8b1c30b}
+\label{sec:org22abc0e}
 On the {\color{purple}master branch}, create a new folder \texttt{CS1XA3/Project01} (where \texttt{CS1XA3} is the already existant root of repo)
 \subsection{Add the folowing files}
-\label{sec:org1a66712}
+\label{sec:org77629af}
 \begin{itemize}
 \item Add \texttt{CS1XA3/Project01/project\_analyze.sh}
 \item Add \texttt{CS1XA3/Project01/README.md}
 \end{itemize}
 \subsection{Commit and Push}
-\label{sec:orgd2f559f}
+\label{sec:org045dd9e}
 \begin{itemize}
 \item Add and commit with the following message {\color{purple}EXACTLY} {\color{olive}"Initial Project01 Commit"}
 \item Push to GitHub
 \end{itemize}
 \subsection{Create a Branch}
-\label{sec:org5ec3048}
+\label{sec:org55ef7d8}
 \begin{itemize}
 \item Create a branch called {\color{purple}project01}
 \item Push the branch to github (i.e {\color{purple}git push origin project01})
 \item Work from the {\color{purple}project01} branch and {\color{red}only merge with master when your ready to submit Part 1 or Part 2}
 \end{itemize}
 
-\section{Part 1 Submission (Due Feb 2 at 11:59pm)}
-\label{sec:org20408d2}
+\newpage
+
+\section{Project Submission Part 1 (Due Feb 2 at 11:59pm)}
+\label{sec:orge4abc2f}
 Merge to the master branch a {\color{purple}WORKING SCRIPT} that:
 \begin{itemize}
 \item implements at least {\color{purple}20 points} worth of {\color{purple}5 point} features including the
@@ -94,8 +88,8 @@ don't need to implement them yet)
 \end{itemize}
 {\color{red}WARNING} make sure to push to GitHub to complete your submission 
 
-\section{Part 2 Submission (Due Feb 16 at 11:59pm)}
-\label{sec:org6a76171}
+\section{Project Submission Part 2 (Due Feb 16 at 11:59pm)}
+\label{sec:orge811c1c}
 Merge to the master branch a {\color{purple}WORKING SCRIPT} that:
 \begin{itemize}
 \item implements at least {\color{purple}20 points} more worth of features
@@ -110,7 +104,7 @@ difficulty as the {\color{purple}10 point features}
 \newpage
 
 \section{README}
-\label{sec:orgcf154f9}
+\label{sec:org0e67195}
 You {\color{purple}MUST} document your code in a file \texttt{CS1XA3/Project01/README.md}
 \begin{itemize}
 \item The document should be styled with {\color{purple}MarkDown} (see
@@ -150,7 +144,7 @@ judgment for constructing a useful README):
 \newpage
 
 \section{Grading Scheme}
-\label{sec:org30a98f7}
+\label{sec:org0b7a4b5}
 \begin{center}
 \begin{tabular}{ll}
 README Documentation & \textbf{20\%}\\
@@ -163,18 +157,30 @@ Other Features & \textbf{40\%}\\
  correct commit message, etc) will result in {\color{purple}A MARK OF 0}
 
 \subsection{Criteria: README Documentation}
-\label{sec:org65f627a}
-\begin{itemize}
-\item {\color{purple}30\%} for using good style (i.e using proper markdown, proper
-sectioning of functionality etc)
-\item {\color{purple}30\%} for specifying execution/usage information correctly
-\item {\color{purple}40\%} for proper detail: what each feature does, as well as
-pitfalls for the feature not functioning correctly, while still be concise
-and not containing superfluous information
-\end{itemize}
+\label{sec:orgff862cb}
+The README file submission is worth a total of {\color{purple}15 points}
+that is projected onto {\color{purple}20\% of the overall grade}, please
+refer to the following rubric for details on what criteria you will be marked
+upon
+
+\begin{center}
+\begin{tabular}{|l|l|l|l|l|}
+ & \textbf{Criteria} & \textbf{Points}\\
+\hline
+\textbf{Style} & use markdown where appropriate & 2 points\\
+ & readable formatting & 2 points\\
+ & broken up into an appropriate amount of sections & 1 point\\
+\hline
+\textbf{Correctness} & instructions for execution are correct & 1 point\\
+ & description of each feature is correct & 4 points\\
+\hline
+\textbf{Detail} & instructions for execution have appropriate detail & 1 points\\
+ & description of each feature has appropriate detail & 4 points\\
+\end{tabular}
+\end{center}
 
 \subsection{Criteria: Custom Features}
-\label{sec:org212330d}
+\label{sec:orgd691c48}
 \begin{itemize}
 \item Each of the two custom features is worth {\color{purple}20\%} of the overall project mark
 \item Per each feature:
@@ -186,7 +192,7 @@ the feature you came up with
 \end{itemize}
 
 \subsection{Criteria: Other Features}
-\label{sec:org7bca8d6}
+\label{sec:org2a503cd}
 \begin{itemize}
 \item You will implement {\color{purple}40 points} of features directly corresponding
 to {\color{purple}40\%} of your overall project mark
@@ -201,7 +207,7 @@ taken off for failing to include edge case, including but not limited to:
 \end{itemize}
 
 \subsection{Plagiarism / Academic Dishonesty}
-\label{sec:org50347ca}
+\label{sec:org87618e6}
 Tools will be used to compare your code with your peers (including previous
 years of this course) 
 \begin{itemize}
@@ -214,9 +220,9 @@ plagiarism.
 \newpage
 
 \section{Features}
-\label{sec:org5b66760}
+\label{sec:org69118c6}
 \subsection{Script Input (\textbf{Mandatory}) (5 Points)}
-\label{sec:orga415165}
+\label{sec:org63cda52}
 \begin{itemize}
 \item Make the script interactive (i.e select which feature(s) are executed)
 either by providing script arguments or by user prompted input
@@ -224,7 +230,7 @@ either by providing script arguments or by user prompted input
 rather than in it's own header
 \end{itemize}
 \subsection{FIXME Log (5 points)}
-\label{sec:org5b52355}
+\label{sec:org3325a36}
 \begin{itemize}
 \item Find every file in your repo that has the word {\color{purple}\#FIXME} in the last line
 \item Put the list of these file names in  \texttt{CS1XA3/Project01/fixme.log} with each file separated by a newline
@@ -232,7 +238,7 @@ rather than in it's own header
 it if it does
 \end{itemize}
 \subsection{Checkout Latest Merge (5 points)}
-\label{sec:orgcde88c8}
+\label{sec:org1edbd79}
 \begin{itemize}
 \item Find the most recent commit with the word {\color{purple}merge} (case
 insensitive) in the commit message
@@ -240,21 +246,21 @@ insensitive) in the commit message
 state)
 \end{itemize}
 \subsection{File Size List (5 points)}
-\label{sec:org6869260}
+\label{sec:org04c3565}
 \begin{itemize}
 \item List all files in the repo (just files not directories) and their sizes in
 a human readable format (i.e KB, MB, GB, etc)
 \item List the files sorted from largest to smallest
 \end{itemize}
 \subsection{File Type Count (5 points)}
-\label{sec:org546e8f6}
+\label{sec:org6a6740d}
 \begin{itemize}
 \item Using the read command (with a prompt), prompt the user for an extension
 (i.e txt, pdf, py, etc)
 \item Output the number of files in your repo with that extension
 \end{itemize}
 \subsection{Find Tag (5 points)}
-\label{sec:orgd861ef6}
+\label{sec:org22c0153}
 \begin{itemize}
 \item Using the read command (with a prompt, prompt the user for a Tag (any
 single word)
@@ -264,7 +270,7 @@ Tag provided) if it doesn't already exist, overwrite it if it does
 that begin with a comment (i.e \texttt{\#}) and include Tag and put them in \texttt{CS1XA3/Project01/Tag.log}
 \end{itemize}
 \subsection{Switch to Executable (10 points)}
-\label{sec:org6ac54dd}
+\label{sec:orgdb0ed05}
 \begin{itemize}
 \item Find all shell scripts (i.e ending in {\color{purple}.sh}) in the repo
 \item Create a file \texttt{CS1XA3/Project01/permissions.log} if it doesn't already exist
@@ -285,7 +291,7 @@ user has write permissions, then only user has executable permissions)
 \end{itemize}
 \end{itemize}
 \subsection{Backup and Delete / Restore (10 points)}
-\label{sec:org4f43c78}
+\label{sec:org9099349}
 \begin{itemize}
 \item Using the read command, prompt the user to {\color{purple}Backup} or
 {\color{purple}Restore} (use a prompt that tells the user what to do)

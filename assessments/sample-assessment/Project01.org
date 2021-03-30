@@ -1,4 +1,4 @@
-#+LaTeX_CLASS: customarticle
+# #+LaTeX_CLASS: customarticle
 #+LATEX_HEADER: \usepackage[dvipsnames]{xcolor}
 #+LATEX_HEADER: \usepackage{xcolor-solarized}
 #+LATEX_HEADER: \usepackage{sectsty}
@@ -7,10 +7,14 @@
 # #+LATEX_HEADER: \pagecolor{solarized-base3}
 #+MACRO: color @@latex:{\color{$1}@@$2@@latex:}@@
 
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \geometry{a4paper,left=2.5cm,top=4cm,right=2.5cm,bottom=4cm,marginparsep=7pt, marginparwidth=.6in}
+
 #+Title: {{{color(blue,CS 1XA3 Project 01)}}}
 #+Author: {{{color(blue,Created by: Curtis D'Alves)}}}
 #+Date: {{{color(blue,Due Date: Part 1 Feb 2\, Part 2 Feb 16)}}}
 #+Email: curtis.dalves@gmail.com
+
 
 #+LaTeX: \newpage 
 
@@ -35,7 +39,9 @@
    - Work from the {{{color(purple,project01)}}} branch and {{{color(red,only
      merge with master when your ready to submit Part 1 or Part 2)}}}
 
-* Part 1 Submission (Due Feb 2 at 11:59pm)
+#+LATEX: \newpage
+
+* Project Submission Part 1 (Due Feb 2 at 11:59pm)
   Merge to the master branch a {{{color(purple,WORKING SCRIPT)}}} that:
     - implements at least {{{color(purple,20 points)}}} worth of {{{color(purple,5 point)}}} features including the
       {{{color(purple,Script Input)}}} feature
@@ -45,7 +51,7 @@
     - has a commit/merge message {{{color(olive,"Submitting Project 01 Part 1")}}} {{{color(purple,EXACTLY)}}}
   {{{color(red,WARNING)}}} make sure to push to GitHub to complete your submission 
   
-* Part 2 Submission (Due Feb 16 at 11:59pm)
+* Project Submission Part 2 (Due Feb 16 at 11:59pm)
   Merge to the master branch a {{{color(purple,WORKING SCRIPT)}}} that:
     - implements at least {{{color(purple,20 points)}}} more worth of features
       including {{{color(purple,at least one 10 point feature)}}}
@@ -103,12 +109,23 @@
     correct commit message, etc) will result in {{{color(purple,A MARK OF 0)}}}
    
 ** Criteria: README Documentation 
-   - {{{color(purple,30%)}}} for using good style (i.e using proper markdown, proper
-     sectioning of functionality etc)
-   - {{{color(purple,30%)}}} for specifying execution/usage information correctly
-   - {{{color(purple,40%)}}} for proper detail: what each feature does, as well as
-     pitfalls for the feature not functioning correctly, while still be concise
-     and not containing superfluous information
+   The README file submission is worth a total of {{{color(purple,15 points)}}}
+   that is projected onto {{{color(purple,20% of the overall grade)}}}, please
+   refer to the following rubric for details on what criteria you will be marked
+   upon
+     
+#+ATTR_LATEX: :align |l|l|l|l|l|
+|               | *Criteria*                                         | *Points* |
+|---------------+----------------------------------------------------+----------|
+| *Style*       | use markdown where appropriate                     | 2 points |
+|               | readable formatting                                | 2 points |
+|               | broken up into an appropriate amount of sections   | 1 point  |
+|---------------+----------------------------------------------------+----------|
+| *Correctness* | instructions for execution are correct             | 1 point  |
+|               | description of each feature is correct             | 4 points |
+|---------------+----------------------------------------------------+----------|
+| *Detail*      | instructions for execution have appropriate detail | 1 points |
+|               | description of each feature has appropriate detail | 4 points |
 
 ** Criteria: Custom Features 
    - Each of the two custom features is worth {{{color(purple,20%)}}} of the overall project mark
