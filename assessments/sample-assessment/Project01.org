@@ -102,13 +102,13 @@
 
 * Grading Scheme
   | README Documentation                                    | *20%* |
-  | Custom Features                                         | *40%* |
-  | Other Features                                          | *40%* |
+  | Custom Features                                         | *20%* |
+  | Other Features                                          | *60%* |
    {{{color(red,WARNING)}}} failure to properly follow instructions (including not cloning
     your repo to the proper directory, not pushing to GitHub, not using the
     correct commit message, etc) will result in {{{color(purple,A MARK OF 0)}}}
    
-** Criteria: README Documentation 
+** Grading: README Documentation 
    The README file submission is worth a total of {{{color(purple,15 points)}}}
    that is projected onto {{{color(purple,20% of the overall grade)}}}, please
    refer to the following rubric for details on what criteria you will be marked
@@ -117,32 +117,49 @@
 #+ATTR_LATEX: :align |l|l|l|l|l|
 |               | *Criteria*                                         | *Points* |
 |---------------+----------------------------------------------------+----------|
-| *Style*       | use markdown where appropriate                     | 2 points |
-|               | readable formatting                                | 2 points |
-|               | broken up into an appropriate amount of sections   | 1 point  |
+| *Style*       | Use markdown where appropriate                     | 2 points |
+|               | Readable formatting                                | 2 points |
+|               | Broken up into an appropriate amount of sections   | 1 point  |
 |---------------+----------------------------------------------------+----------|
-| *Correctness* | instructions for execution are correct             | 1 point  |
-|               | description of each feature is correct             | 4 points |
+| *Correctness* | Instructions for execution are correct             | 1 point  |
+|               | Description of each feature is correct             | 4 points |
 |---------------+----------------------------------------------------+----------|
-| *Detail*      | instructions for execution have appropriate detail | 1 points |
-|               | description of each feature has appropriate detail | 4 points |
+| *Detail*      | Instructions for execution have appropriate detail | 1 point  |
+|               | Description of each feature has appropriate detail | 4 points |
 
-** Criteria: Custom Features 
-   - Each of the two custom features is worth {{{color(purple,20%)}}} of the overall project mark
-   - Per each feature:
-     - {{{color(purple,50%)}}} for the creativity / difficulty level of
-       the feature you came up with
-     - {{{color(purple,50%)}}} for implementing the feature correctly
+** Grading: Custom Features 
+   You will implement two custom features, each worth {{{color(purple,5 points)}}} (so the
+   two together will be worth a total of {{{color(purple,10 points)}}} which
+   will be projected onto {{{color(purple,20% of the overall grade)}}}), please
+   refer to the following rubric for details on what criteria each individual
+   custom feature will be marked upon
+
+#+ATTR_LATEX: :align |l|l|l|l|l|
+|                 | *Criteria*                                             | *Points* |
+|-----------------+--------------------------------------------------------+----------|
+| *Creativity*    | Is unique, substantially different from other features | 1 point  |
+|-----------------+--------------------------------------------------------+----------|
+| *Applicability* | Has an actually useful application                     | 1 point  |
+|                 | Incorporates skills taught in course                   | 2 points |
+|-----------------+--------------------------------------------------------+----------|
+| *Correctness*   | Works as expected/described in README                  | 1 point  |
+
 
 ** Criteria: Other Features
-   - You will implement {{{color(purple,40 points)}}} of features directly corresponding
-     to {{{color(purple,40%)}}} of your overall project mark
-   - Features will be marked on level of correctness. Partial marks will be
-     taken off for failing to include edge case, including but not limited to:
-     - failing to account for directories/files including special characters
-       (i.e whitespace)
-     - failing to account for directories/files not existing / already existing
-     - failing to account for command IO failure
+   You will implement {{{color(purple,40 points)}}} of features corresponding
+   to {{{color(purple,60%)}}} of your overall project mark. Reference the [[#sec:features][Features]]
+   section for a list of all possible features and their corresponding point
+   worth. Please refer to the following rubric for details on what criteria each
+   5 point feature will be marked upon (double each point for features worth 10 points)
+
+#+ATTR_LATEX: :align |l|l|l|l|l|
+|               | *Criteria*                                                 | *Points* |
+|---------------+------------------------------------------------------------+----------|
+| *Correctness* | Works for at least one use case                            | 1 point  |
+|               | Accounts for directories/files with special characters     | 1 point  |
+|               | AND/OR not existing AND/OR accounts for command IO failure |          |
+|               | Is executable as described in README                       | 1 point  |
+|               | Works for all use cases                                    | 2 points |
 
 ** Plagiarism / Academic Dishonesty
    Tools will be used to compare your code with your peers (including previous
@@ -155,6 +172,10 @@
 #+Latex: \newpage
 
 * Features
+  :PROPERTIES:
+  :CUSTOM_ID: sec:features
+  :END:
+  
 ** Script Input (*Mandatory*) (5 Points)
    - Make the script interactive (i.e select which feature(s) are executed)
      either by providing script arguments or by user prompted input 
