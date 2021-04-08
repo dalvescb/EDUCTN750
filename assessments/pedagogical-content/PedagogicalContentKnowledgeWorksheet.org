@@ -1,0 +1,86 @@
+* Pedagogical Content Knowledge Worksheet
+  :PROPERTIES:
+  :CUSTOM_ID: pedagogical-content-knowledge-worksheet
+  :END:
+
+1. 
+
+   #+begin_quote
+     What is your discipline?
+   #+end_quote
+   Put most broadly, my discipline is known as Computing. This encompasses a
+   number of fields including Computer Science, Software Engineering, Computer
+   Engineering and Formal Logics 
+   
+2. 
+
+   #+begin_quote
+     How do you work to develop your disciplinary knowledge?
+   #+end_quote
+   The core way you develop knowledge in Computing is through practical
+   application, i.e., actively developing software with new and exciting tools.
+   There is a never ending release of new programming languages and API's that
+   present new knowledge in Computing. However I also read papers and attend
+   conferences and review knowledge from my undergrad through
+   textbooks/blogs/youtube videos
+   
+3. 
+
+   #+begin_quote
+     How do you work to develop your pedagogical knowledge?
+   #+end_quote
+   By taking courses on education (like this one), auditing other teachers
+   lessons and reading existing literature in journals etc
+
+
+4. 
+
+   #+begin_quote
+     Prior to this week's viewing, had you ever heard of pedagogical
+     content knowledge?
+   #+end_quote
+   No but it's something I've always implicitly assumed existed
+
+5. 
+
+   #+begin_quote
+     What signature pedagogies are often used in your discipline?
+   #+end_quote
+   I had to google this and found a-lot of information about what qualifies as a
+   "signature pedagogy" but almost no examples of commonly used ones and
+   absolutely no empirical data/surveys pertaining to signature pedagogies used
+   in Computing. I know anecdotally "Experiential Learning" (if that qualifies
+   as a signature pedagogy) is a often thrown around buzz term for teaching in
+   engineering in general at the moment, and there is also an emphasis on
+   students actually using computers/technology to learn topics in computing and
+   not a pencil and paper.
+   
+6. 
+
+   #+begin_quote
+     Are there other instructional approaches that you have found work
+     well in your discipline?
+   #+end_quote
+   I've come to believe using primarily project and participation based
+   assessment is most appropriate for my discipline, and enforcing structure on
+   how to approach projects (breaking up large projects into many small parts
+   that have frequent scheduled submissions) is very beneficial 
+   
+7. 
+
+   #+begin_quote
+     How do you work to develop your pedagogical content knowledge?
+   #+end_quote
+   I just heard about this today, and I suppose I've assumed reflecting on how I
+   have learned my discipline and combining it with formal pedagogical knowledge
+   I've acquired would be sufficient but going forward I guess I'll try reading
+   some of the journals I list in question 8
+   
+8. 
+
+   #+begin_quote
+     What are two teaching and learning journals in your discipline?
+   #+end_quote
+   - ACM Transactions on Computing Education
+
+   - IEEE Transactions on Learning Technologies
