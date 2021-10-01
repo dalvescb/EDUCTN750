@@ -1,0 +1,26 @@
+#+TITLE: Intro To Un*x Systems and Bash Scripting: Lesson Reflection
+#+AUTHOR: Curtis D'Alves
+#+DATE: April 12, 2021
+
+#+OPTIONS: toc:nil
+#+LaTeX_CLASS: customarticle
+
+I was a little skeptical of the rigidity of the BOPPPS model initially whoever
+after finishing developing the lesson and receiving feedback I see it's value. I
+have never spent that much time preparing a lesson beforehand, preferring to
+create and revise lessons on the fly. I probably shouldn't be that surprised
+that any extra level of organization will help improve over that. However I have
+actually come to believe the BOPPPS model provides more than just any lesson
+plan that would improve organization. In particular I think identifying learning
+outcomes and giving an overview of what they are in the bridge is a great way to
+start a lesson that assures students of what is trying to be accomplished and
+that their time is not being wasted. It also inspired me to structure my lesson
+into clearly divided sections that distribute learning outcomes and provide
+assessment for them at the end of each section, which is a technique that may be
+too structured for some lessons but was very effective for this one. If I were
+to improve upon the lesson, I would supplement the lesson by making a more
+sophisticated pre-assessment that identifies what pre-existing knowledge is
+required and providing resources for learning that knowledge. I would also have
+a better summary at the end of each section with a list of key commands (thanks
+for my partner for providing this suggestion as feedback, it's a great idea).
+

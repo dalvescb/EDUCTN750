@@ -1,0 +1,153 @@
+*EDUCATN 600: Essential Skills in Teaching and Learning (I)*
+
+*Post-Workshop Reflection*
+
+Please complete these questions within a week of attending the workshop
+(sooner is better!). Keep in mind that these reflections will assist you
+in writing your End of Course Reflective Analysis, so the more detail
+you provide, the more useful you may find them as you complete the final
+assignment. In total, your reflection should be approximately 350-500
+words. Each reflection will be read by the course instructor and then
+passed on to the workshop facilitator.
+
+*Your Name:* Curtis D'Alves
+
+*Workshop Title:* Education Technologies 1
+
+*Please describe one thing you learned in this workshop and explain how
+it changed your understanding of the subject.*
+
+I was mostly already aware of multimedia learning principles and
+principles/rules to be followed in the cognitive paradigm but a refresher was
+still useful. The most critical thing I believed I learned from this workshop
+was although I'm already familiar and a huge supporter of open
+textbooks/courseware, I was not aware of and have never thought about creating
+"sustainable assignments" or "open badges" before. This realization actually
+drastically expands the idea of "open courseware" to me and in the future I'll
+use much more critical thought when creating assessments (and "rewards" for
+completed assessments) in the future.
+
+*Explain how you might apply what you learned to your current or future
+teaching using a specific example. What impact do you think this will have on student learning?*
+
+In the future, I'm going to focus on designing assignments students can continue
+contributing to, and push them to make their assignments public. Since I teach
+software development, the obvious way to accomplish this is to have students
+create assignments that serve as "libraries" that can be by others, and publish
+their code on GitHub. I think this will inspire students to continue their
+learning beyond the classroom, and give them a sense of accomplishment beyond a
+simple grade point.
+
+*Do you have any suggestions about how the workshop might be improved? If
+you were to run the workshop, what might you do differently?*
+
+The intro to Educational Technologies 1 video didn't seem to have captions
+(despite the other video providing them), which is a big issue for a video that
+directly says we should be supporting accessibility. Also, it sometimes felt
+like I was attempting to be "sold" mentimeter, I understand this was probably
+just because the author makes frequent use of the product and its served them
+well, however it came off the wrong way at points. Also one of the videos
+mentioned you should try to use free and open source technologies whenever
+possible, and theirs a large variety of free and open source alternatives to
+mentimeter.
+
+
+*What questions do you still have about the subject? What would you like
+to know more about?*
+
+I would like to see the current empirical analysis on the effectiveness of some
+of these principles and their effectiveness on increasing learning. The video
+mentioned a few times that some of these principles of little empirical evidence
+of their effectiveness which is good to know, but it would be good to know just
+how much consensus among the scientific communities studying pedagogy there is
+for all the principles/rules recommended here.
+
+*Are there any other thoughts you would like to share about your
+experience in this workshop?*
+
+Overall this was a well done workshop and I thank would like to thank the
+authors for their good work
+
+#+EXCLUDE_TAGS: noexport
+* Notes                                                            :noexport:
+
+ * Principles of media learning
+   * aimed at reducing learners cognitive load
+
+ * Richard Mayor: Multimedia learning
+   * learning from words and pictures
+   * invented cognitives theory
+
+ * Cognitive paradigm
+   * Learning is a processing activity that:
+     1) Selecting relevant material
+     2) Organizing that material into representations
+     3) Integrating with existing knowledge
+   * Assumes humans have dual channels for processing materials
+     * Visual and verbal
+   * Learning occurs when info moves from working to long-term memory
+   * Cognitive load theory, working memory has a finite capacity and learners
+     can be overloaded before information moves to long-term memory
+   * Principles to abide by:
+     * Coherence Principle: reduce extraneous material
+       - NOTE studies have trouble replicated this principles effectiveness
+     * Redundancy Principle
+       - Do not add on screen text to narrated animation
+     * Contiguity Principle(s)
+       - Spatial: place printed words next to corresponding graphics
+       - Temporal: Present corresponding narration and animation at the same time
+     * Segmenting Principle
+       - Present content in learner paced segments
+     * Pre-training Principle
+       - Provide pre-training in the name,location and characteristics of key
+         components
+     * Modality Principle
+       - Present words as spoken text (rather than printed text)
+     * Multimedia Principle
+       - Present words and pictures rather than words alone
+     * Personalization Principle
+       - Present words in a conversational rather than formal style
+         
+
+  * Introduction to Educational Technologies (no captions on this video?)
+  * What do education technologies assist with:
+    * extends the scope of learning beyond physical boundries (i.e.
+      webconferencing, active learning classrooms)
+    * expand accessibility and engagement of content (i.e. inclusive design)
+      * Video lectures: blended learning
+      * Classroom response systems (i.e. mentimeter,social media)
+    * open education resources, open textbooks (open source for curriculum)
+    * sustainable assignments through Open Pedagogy (can do stuff like create
+      textbooks, edit Wikipedia etc)
+    * open badges
+
+  * Adaptive Learning
+    * Example: say you take a quiz, if you get a question wrong, you are sent back to the
+      chapters that cover those concepts
+  * Next Generation Digital Learning Environment
+    * Accessibility and Universal Design
+    * Interoperability
+    * Personalization
+    * Analytics, Advising, and Learning Assessment
+    * Collaboration
+  * Simulations
+    * Virtual learning environment (Labster)
+    * Yet to have good results
+  * Game-based Learning and Gamification
+  * Artificial Intelligence
+    * chat bots to answer questions
+
+  * Feels like you're trying to sell me Mentimenter ...
+
+  * Evaluating Educational Technologies
+    * Functionality
+    * Accessibility
+    * Hypermediality
+    * Privacy and Accounts
+    * Integration with LMS (Learning Management System)
+    * Offline Access
+    * Presence
+
+  
+#  LocalWords: pre mentimeter Labster Gamification Mentimenter Hypermediality
+#  LocalWords:  co courseware GitHub
