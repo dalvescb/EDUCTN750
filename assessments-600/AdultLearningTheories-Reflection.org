@@ -1,0 +1,212 @@
+*EDUCATN 600: Essential Skills in Teaching and Learning (I)*
+
+*Post-Workshop Reflection*
+
+Please complete these questions within a week of attending the workshop
+(sooner is better!). Keep in mind that these reflections will assist you
+in writing your End of Course Reflective Analysis, so the more detail
+you provide, the more useful you may find them as you complete the final
+assignment. In total, your reflection should be approximately 350-500
+words. Each reflection will be read by the course instructor and then
+passed on to the workshop facilitator.
+
+*Your Name:* Curtis D'Alves
+
+*Workshop Title:* Adult Learning Theories
+
+*Please describe one thing you learned in this workshop and explain how
+it changed your understanding of the subject.*
+
+I learned the distinction between Pedagogy, Andragogy and Heutagogy, and that
+Pedagogy is colloquially used as a catch-all term for all of these. This
+provided me with a topology of what a previously viewed as simply different
+pedagogical methods and reinforced my understanding of these methods. For
+example, I have previously researched experiential learning and attempted to
+employ it in my teaching. I now see experiential learning in a new perspective
+that emphasizes the subject the method is being used on and how the method may
+be more emphatic for certain subjects and not others. I have also never
+considered using "choose your own adventure" assessment.
+
+*Explain how you might apply what you learned to your current or future
+teaching using a specific example. What impact do you think this will have on student learning?*
+
+When employing methods like experiential learning I'll now consider the learning
+capabilities (be they adults or in the "emerging adulthood" stage) and how I
+might tailer the method to better suit those capabilities. I'll also consider
+implementing a "choose your own adventure" assessment alongside as appropriate.
+I believe this will further engage my students and increase the "active
+learning" in my course content.
+
+*Do you have any suggestions about how the workshop might be improved? If
+you were to run the workshop, what might you do differently?*
+
+At the beginning of the workshop three questions where asked. I put a lot of
+thought in these questions and come up with the following answers
+
+   + What is learning?
+     * "Learning" is a cluster concept, it defies a formal definition that can
+       encompass all colloquial uses of the word across all societies/cultures.
+       One can only list attributes that are commonly used to judge possible
+       inclusion in the set of "learning", some examples of these attributes include:
+       - A process under which one acquires a greater "understanding" of a concept
+       - A process under which one acquires new "knowledge"
+       - A process under which one "fine tunes" their "response" to given stimuli
+   + What defines an adult learner?
+     * An "adult" is a socially constructed category correlated to empirical
+       observations such as age and psychological concepts such as "maturity".
+       Societies commonly use the category of adult to discern certain
+       capabilities of a subject with the goal of achieving a social utility
+       (such as whether or not we should allow an individual to attempt to
+       drive). An "adult learner" is someone who a given society would
+       categorize as an "adult" that is undergoing "learning" as defined above.
+   + How do you teach an adult learner?
+     * When an educator attempts to teach a learner they enter into a social
+       contract that has each participant assume certain roles and
+       responsibilities. Since someone categorized as an "adult" has been
+       discerned to have a certain level of capabilities as mentioned above it
+       is reasonable to set a different standard of responsibilities than a
+       non-"adult". Exactly what standard of responsibilities depends on the
+       known "best practices" for education in that society since education has
+       empirically observable outcomes and hence can have its methodologies
+       scientifically evaluated for effectiveness. 
+       
+At the end of the workshop we were asked to reflect and redo these questions.
+Although I appreciate that this was Heutagogy approach, I would still have
+preferred to have feedback on these questions from someone with more thorough
+knowledge in the field. I feel like submitting answers to these questions would
+have been more productive than filling out this generic reflection sheet.
+  
+*What questions do you still have about the subject? What would you like
+to know more about?*
+
+The workshop mentioned very little about the empirical evidence supporting the
+effectiveness of methodologies used between Pedagogy/Andragogy/Heutagogy, or the
+validity of the critiques addressed. Although I respect critical theories and
+their usefulness, I feel critiques should still be supported by sociological
+experiments when its reasonable to do so.
+
+*Are there any other thoughts you would like to share about your
+experience in this workshop?*
+
+I'm thankful to the professors who developed this workshop, it was very well put
+together and was clearly designed by highly knowledgeable experts in the field.
+
+#+EXCLUDE_TAGS: noexport
+* Notes                                                            :noexport:
+
+** Beginning Reflection
+   + What is learning?
+     * "Learning" is a cluster concept, it defies a formal definition that can
+       encompass all colloquial uses of the word across all societies/cultures.
+       One can only list attributes that are commonly used to judge possible
+       inclusion in the set of "learning", some examples of these attributes include:
+       - A process under which one acquires a greater "understanding" of a concept
+       - A process under which one acquires new "knowledge"
+       - A process under which one "fine tunes" their "response" to given stimuli
+   + What defines an adult learner?
+     * An "adult" is a socially constructed category correlated to empirical
+       observations such as age and psychological concepts such as "maturity".
+       Societies commonly use the category of adult to discern certain
+       capabilities of a subject with the goal of achieving a social utility
+       (such as whether or not we should allow an individual to attempt to
+       drive). An "adult learner" is someone who a given society would
+       categorize as an "adult" that is undergoing "learning" as defined above.
+   + How do you teach an adult learner?
+     * When an educator attempts to teach a learner they enter into a social
+       contract that has each participant assume certain roles and
+       responsibilities. Since someone categorized as an "adult" has been
+       discerned to have a certain level of capabilities as mentioned above it
+       is reasonable to set a different standard of responsibilities than a
+       non-"adult". Exactly what standard of responsibilities depends on the
+       known "best practices" for education in that society since education has
+       empirically observable outcomes and hence can have its methodologies
+       scientifically evaluated for effectiveness. 
+
+
+** Hager and Hodkinson
+   + Currently, there is no available single general account of learning
+   + Learning as becoming (didn't mention Hegel but definitely Hegel)
+   + Emerging Adulthood Jeffrey Arnett
+     + Emerging Adulthood defined by 5 distinct features
+       1. Age of identity exploration
+       2. Age of instability
+       3. Age of self-focus
+       4. Age of feeling in-between
+       5. Age of possibilities
+          
+** The Three "gogies"
+   
+   Pedagogy -> Andragogy -> Heutagogy
+   
+   + Signature Pedagogies: styles of teaching such as Experiential Learning,
+     Problem-Based Learning, Trauma-Informed Teaching, etc
+   + Pedagogy is a colloquial catch-all term, but technically means "the art and
+     science of teaching children"
+
+** Traditional Pedagogy
+   - Formal lectures
+   - Standardized Testing
+   - Role Memorization
+*** Critiques
+    - Paulo Freire: "Banking Style" denies the knowledge/experience students
+      bring to the classroom and agency of the students
+    - Knowles: Children enter this world in a condition of complete dependency,
+      this concept of dependency is encouraged and this role is defined as the
+      more or less passive one of receiving and storing up the information 
+
+** Andragogy
+   + Introduced by Knowles: "the art and science of teaching adults"
+   + Rather than viewing teaching as "making someone learn" andragogy views
+     teaching "helping someone learn"
+   + Based on the following assumptions:
+     * adults become more self-directed as they mature
+     * adults have an ever-growing number of life experiences
+     * are more ready to learn something that has a clear use or application to
+       real life
+     * view learning as a means to achieve one's full potential
+     * are most powerfully motivated to learn when internally motivated
+     * need to understand why they are learning something
+   + Andragogy in practice:
+     * emphasis on experiential learning
+     * emphasis on application
+     * emphasis on metacognition (identifying preconceptions, reflection on ones
+       own learning, creating learning plans)
+     * Examples
+       * choose which 6 of 10 workshops
+       * frame content in "what's in it for me"
+       * choose your own adventure assessment
+   + Critiques
+     + Is it a theory of learning, a teaching method, a philosophical statement,
+       a set of assumptions or all of the above? What is it grounded in?
+     + Andragogy doesn't sufficiently address instructor positionality and power
+     + Andragogy puts forward an oversimplified view of individual freedom
+
+** Heutagogy
+   + "the concept of truly self-determined learning"
+   + Independent of formal teaching: learner determines *what* is taught and
+     *how*
+   + Andragogy determines *what* and learner determines *how*
+*** Capability
+    + Being 'capable': know how to learn, are creative, have a high degree of
+      self-efficacy
+    + Heutagogy helps develop highly capable individuals
+*** In Practice
+    + Tutors and problem-based learning
+    + independent study course - typically a literature reading
+    + Blended course in Teacher (K-12) Education program: instructor shares app
+      that curates relevant, applicable content (videos,articles, etc) students
+      self-assess their needs and interests and engage with the materials they
+      want when they want
+
+*** Critiques 
+    * Very challenging to accomplish in higher education
+      - time
+      - not knowing how to implement
+      - external requirements may scare educators
+    * Fears - what if students go in the wrong direction? What if students are
+      prepared for this approach
+      
+      
+#  LocalWords:  EDUCATN Arnett Heutagogy Andragogy gogies LocalWords Pedagogies
+#  LocalWords:  Hodkinson Hager Paulo Freire andragogy metacognition app
+#  LocalWords:  positionality
