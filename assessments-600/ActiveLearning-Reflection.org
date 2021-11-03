@@ -1,0 +1,124 @@
+*EDUCATN 600: Essential Skills in Teaching and Learning (I)*
+
+*Post-Workshop Reflection*
+
+Please complete these questions within a week of attending the workshop
+(sooner is better!). Keep in mind that these reflections will assist you
+in writing your End of Course Reflective Analysis, so the more detail
+you provide, the more useful you may find them as you complete the final
+assignment. In total, your reflection should be approximately 350-500
+words. Each reflection will be read by the course instructor and then
+passed on to the workshop facilitator.
+
+*Your Name:* Curtis D'Alves
+
+*Workshop Title:* Active Learning Strategies
+
+*Please describe one thing you learned in this workshop and explain how
+it changed your understanding of the subject.*
+
+As part of researching active learning strategies I learned about the Socratic
+Questioning strategy. Although I was already aware of what a Socratic Dialogue
+was I now know the specifics of how to apply the corresponding active learning
+strategy. 
+
+*Explain how you might apply what you learned to your current or future
+teaching using a specific example. What impact do you think this will have on student learning?*
+
+In previous years of my teaching I have employed a style of lecture I learned
+from a influential teacher I had called discussion sessions. These sessions
+would involve me giving a brief overview of a concept and posing a question to
+the class about the concept. Rather than leap from one question to another
+completely disjointed question, I would focus my questions on leading into a
+more complex understanding of the underlying concepts. I would also have more of
+a dialogue that would focus on: getting students to clarify their thinking,
+challenging students assumptions, and exploring implications and consequences.
+The emphasis would be on encouraging students critical thinking rather than
+getting the correct answer to the question, so questions would be formulated to
+achieve this goal and not have a simple correct or incorrect answer. I believe
+this will more effectively engage students and therefore improve their learning.
+    
+*Do you have any suggestions about how the workshop might be improved? If
+you were to run the workshop, what might you do differently?*
+
+You could start the workshop with the activity, and interleave the lesson with
+completing the activity. If I ran this workshop, I would focus the questions in
+the activity to address content being taught in the first half of the workshop.
+
+*What questions do you still have about the subject? What would you like
+to know more about?*
+
+I would still like to learn more individual active learning strategies. I only
+really deep-dived into the one I selected, and there were many more to learn about.
+
+*Are there any other thoughts you would like to share about your
+experience in this workshop?*
+
+This workshop was very informative, my thanks to the creators.
+
+#+EXCLUDE_TAGS: noexport
+* Notes                                                            :noexport:
+  * Key Components of active learning
+    + Doing + Reflecting
+    + "involving students in *doing things* and *thinking about what they are
+      doing*" (Bonwell & Eison,1991)
+    + Berry describes 4 key elements that characterize active learning strategies
+      1. Critical thinking
+      2. Individual responsibility for learning
+      3. Involvement in open-ended, flexible activities
+      4. Organization and facilitation of learning activities by the instructor
+  * Why active learning is important
+    + It is effective in helping students learn
+    + Active learning can
+      + provide more frequent and immediate feedback
+      + provide opportunities for students to discuss content and learn from one another
+      + facilitate students' skill development
+      + encourage students to consider how content applies to real-world situations
+      + create a sense of community and promote student retention
+    + The Segmented Lecture
+      + Lecture (<15 min) - Active Learning - Lecture (<15 min) - Active
+        Learning - Lecture (<15 min)
+  * considerations for implementing and selecting an active learning strategy
+    + Normalized at an early point in the course
+    + Authentically connected to course content and skill development, with
+      clear values to students
+    + Focused on a few key ideas
+    + Supportive of all students
+  * Identify potential challenges to active learning
+    + The time that it takes to facilitate active learning
+    + Fear of losing control of the classroom
+  * Describe the role that active learning plays in a constructively aligned
+    learning experience
+    
+*** Active Learning Post
+    *My current/past teaching context*
+    In my teaching, I have made use of a active learning style of lecture I've
+    referred to as "discussion sessions" which involved briefly going over a
+    concept (less than two minutes) than posing a question to the class. In
+    past years I would call on a student specifically to answer the question,
+    but in more recent years I simply pose the question to the class and allow
+    anyone to answer rather than putting someone on the spot.
+
+    *An Active Learning strategy - Socratic Questioning*
+    I would like to (properly) implement the Socratic questioning strategy.
+    Rather than leap from one question to another completely disjointed
+    question, I would focus my questions on leading into a more complex
+    understanding of the underlying concepts. I would also have more of a
+    dialogue that would focus on: getting students to clarify their thinking,
+    challenging students assumptions, and exploring implications and
+    consequences. The emphasis would be on encouraging students critical
+    thinking rather than getting the correct answer to the question, so
+    questions would be formulated to achieve this goal and not have a simple
+    correct or incorrect answer.
+
+    *Suggestions or considerations for implementing this strategy in a large
+    classroom and an online learning environment* 
+    Currently in my discussion sessions, I split students up into lecture
+    groups, so instead of attending 3 lectures a week they only attend one of
+    their choice. I think an effective method to further break down the class if
+    necessary would be to ask the starting question, then break students into
+    groups, having a single student assume the role of inquisitor. In an online
+    classroom this could easily be accomplished through using functionality for
+    breakup groups.
+    
+#  LocalWords:  Eison Bonwell LocalWords min

@@ -1,0 +1,123 @@
+*EDUCATN 600: Essential Skills in Teaching and Learning (I)*
+
+*Post-Workshop Reflection*
+
+Please complete these questions within a week of attending the workshop
+(sooner is better!). Keep in mind that these reflections will assist you
+in writing your End of Course Reflective Analysis, so the more detail
+you provide, the more useful you may find them as you complete the final
+assignment. In total, your reflection should be approximately 350-500
+words. Each reflection will be read by the course instructor and then
+passed on to the workshop facilitator.
+
+*Your Name:* Curtis D'Alves
+
+*Workshop Title:* Facilitating Online Discussion
+
+*Please describe one thing you learned in this workshop and explain how
+it changed your understanding of the subject.*
+
+I learned different methods for developing online discussion
+sessions such as Starter-Wrapper and Save the Last Word for Me, as well as
+strategies for improving online discussions. Although I've learned about
+different qualifications for what constitutes a "good" discussion questions
+before, I've never employed a specific strategy for developing them before.
+
+*Explain how you might apply what you learned to your current or future
+teaching using a specific example. What impact do you think this will have on student learning?*
+
+In the future, I'll consider using certain strategies for developing discussion
+strategies. In particular the Starter-Wrapper strategy strikes me as a useful
+strategy for engaging students. There are three variations, the first
+(Starter-Wrapper Conventional) would be the most straight forward to implement
+and probably be the most often used, were the student reads ahead and starts
+discussion, other participate, and the wrapper (which would usually be me)
+summarizes what was discussed. The second version (Starter-wrapper with Roles)
+would probably be less often employed but could be very useful for certain
+situations, particularly in situations were discussing a paradigm that is hotly
+debatable and could make for interesting discussion. The final version
+(International Starter-Wrapper) is probably not very useful for my field and
+would not often be used.
+
+*Do you have any suggestions about how the workshop might be improved? If
+you were to run the workshop, what might you do differently?*
+
+There were a lot of links to different strategies coming from different sources,
+it would have been nice to gather all these strategies into one document that
+summarizes and compares them then references these links.
+
+*What questions do you still have about the subject? What would you like
+to know more about?*
+
+I would like to know why the rules for online discussion etiquette are suggested
+and if there's any evidence enforcing them actually improves the learning experience
+
+*Are there any other thoughts you would like to share about your
+experience in this workshop?*
+
+Thank you to the instructors/creators of the workshop. Great job!
+
+#+EXCLUDE_TAGS: noexport
+* Notes                                                            :noexport:
+** Intended learning outcomes
+   1) Describe why it is valuable for students to engage
+   2) Identify methods you could use to start online discussion
+   3) Recognize barriers
+   4) Observe how online discussions can be set up synchronously and asynchronously
+   
+** Why discussion is important
+   - more likely to remember it
+   - students pay more attention
+   - enhances learning and understanding
+   - allows students to create personal connections
+   - acclimates students to the nuance and irresolution inherent in some fields
+
+** Facilitating Discussion online
+   Pros
+   - can be asynchronous (which provides more opportunity for reflection)
+   - comments are recorded for review later on
+   - can be easier to grade
+   Cons
+   - limited by access to technology
+   - if asynchronous, may not feel as fluid or natural
+   - if asynchronous, students cannot respond immediately
+   - harder to interpret tone
+** Assessment: Your thoughts
+   Extra Pro:
+   - can accommodate students from different locations
+   - no commute
+   Extra Con:
+   - loss of sense of social connection gained from in-person interaction
+
+** Tips for creating effective online discussion
+   + provide structure
+     * clarify students role in discussion
+     * Consider "discussion strategies" such as Starter-Wrapper
+   + clarify expectations
+     * provide clear parameters for discussion posts
+     * clarify expectations around language (e.g. level of formality, overall behavior)
+   + Pose a good question
+     * Provide students with a debate prompt
+     * See Stanford universities Designing Effective Discussion Questions
+   + Provide opportunity for everyone to be heard
+     * In a large classroom, divide students into smaller groups of 6-10
+   + Use your presence to motivate and encourage students
+     * Students want to know that the instructor is reading their posts
+     * ask follow up questions
+     * identify students who are good at making connections between posts
+   + Provide direct Instructions to the students
+     * correct misconceptions
+     * summarizing final comment 
+
+** Assessment: Creating a discussion question prompt
+   - What are the comparative advantages / disadvantages to functional and
+     imperative programming?
+   - What motivates the use of interpreters and virtual machines over
+     conventional compilers?
+
+** Assessment: Creating respectful online discussion environments
+   I would not enforce any rules about online etiquette that were not paramount
+   to respecting students safety and ability to participate (i.e. no student
+   should behave in any way that is discriminatory or hateful to another
+   students identity). These rules would not be up for discussion as the
+   discussion itself would create a harmful environment.
