@@ -1,0 +1,60 @@
+*EDUCATN 600: Essential Skills in Teaching and Learning (I)*
+
+*Post-Workshop Reflection*
+
+Please complete these questions within a week of attending the workshop
+(sooner is better!). Keep in mind that these reflections will assist you
+in writing your End of Course Reflective Analysis, so the more detail
+you provide, the more useful you may find them as you complete the final
+assignment. In total, your reflection should be approximately 350-500
+words. Each reflection will be read by the course instructor and then
+passed on to the workshop facilitator.
+
+*Your Name:* Curtis D'Alves
+
+*Workshop Title:* Marking Efficiently and Effectively
+
+*Please describe one thing you learned in this workshop and explain how
+it changed your understanding of the subject.*
+
+Doing the marking efficiently work sheet before watching Marking efficiently,
+objectively and consistently pointed out a lot of ways I've been improperly
+marking. In particular I didn't attempt to solve the problem first, and the
+rubric I created didn't limit the possible grades and was very inefficient.
+These methods seem very obvious and useful now that I'm aware of them but I
+wouldn't have thought of them on my own.
+
+*Explain how you might apply what you learned to your current or future
+teaching using a specific example. What impact do you think this will have on student learning?*
+
+From now on I'm going to follow each of the methods suggested to mark
+efficiently, objectively and consistently. I'll make sure to always solve the
+problem first, or have a TA solve the problem in the case it's a problem of my
+own creation (I believe solving a problem I created wouldn't yield the same
+benefits). I'll also adjust my marking rubrics to limit possible grades as a
+appropriate. I'll also go out of my way to use submission methods that make it
+easy to anonymize student submissions (as a teacher of computer science, I can
+usually write a script to do this).
+
+*Do you have any suggestions about how the workshop might be improved? If
+you were to run the workshop, what might you do differently?*
+
+The workshop was a bit long. I think the sections on marking online and common
+grading challenges could have been left out / put into a different workshop (we
+already did a workshop on online learning where the marking online could easily
+have gone). Sometimes I provide students with the testing script so they are
+able to check if there functions are correct before officially submitting, is
+this good practice?
+
+*What questions do you still have about the subject? What would you like
+to know more about?*
+
+I would like to see if there are any particular methods for marking effectively
+when using an automated marking system. In my field (computer science) I often
+create scripts to auto-mark at least part of my coding assignments. 
+
+*Are there any other thoughts you would like to share about your
+experience in this workshop?*
+
+This was a very well-developed and informative workshop. My thanks to the
+developers
