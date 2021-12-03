@@ -1,0 +1,113 @@
+*EDUCATN 600: Essential Skills in Teaching and Learning (I)*
+
+*Post-Workshop Reflection*
+
+Please complete these questions within a week of attending the workshop
+(sooner is better!). Keep in mind that these reflections will assist you
+in writing your End of Course Reflective Analysis, so the more detail
+you provide, the more useful you may find them as you complete the final
+assignment. In total, your reflection should be approximately 350-500
+words. Each reflection will be read by the course instructor and then
+passed on to the workshop facilitator.
+
+*Your Name:* Curtis D'Alves
+
+*Workshop Title:* Research In Teaching and Learning
+
+*Please describe one thing you learned in this workshop and explain how
+it changed your understanding of the subject.*
+
+I learned of the categorizations of Good Teaching / Scholarly Teaching and
+Scholarship of teaching and Learning. This made me consider the idea that
+teaching ability might improve not just by researching teaching methods, but
+actively participating in research into teaching beyond the classroom. Although
+the workshop never explained how/why this might be so.
+
+*Explain how you might apply what you learned to your current or future
+teaching using a specific example. What impact do you think this will have on student learning?*
+
+I'll consider participating in research into learning in computer science. I
+have written a single paper in the past on experiential learning in computers
+science, and I'll consider attempting to write more papers / conduct more
+research into other methodologies that I would use in my teaching.
+
+*Do you have any suggestions about how the workshop might be improved? If
+you were to run the workshop, what might you do differently?*
+
+I would do the handout last (I had to skip ahead because I was sure I missed
+information). 
+
+*What questions do you still have about the subject? What would you like
+to know more about?*
+
+I would like a clear definition of what SoTL is. To be frank the quote by Nancy
+Chick (2015) just sounds like a bunch of buzzwords (i.e. it a synthesis of
+teaching, learning and research ... ok so SoTL is teaching while doing research
+on teaching? How does it do this? You never gave an explicit way this is
+approached that would give me any context beyond there are some teachers that
+also do research into teaching and they call themselves SoTL). And why would we
+do this? Does this actually make you a better teacher? Is there any evidence of
+this?
+
+*Are there any other thoughts you would like to share about your
+experience in this workshop?*
+
+The link to search for teaching journals was incorrect/outdated. After some
+searching around I found the actual link here
+https://facultydevelopment.kennesaw.edu/scholarly-teaching/journals/index.php
+#+EXCLUDE_TAGS: noexport
+* Notes                                                            :noexport:
+
+  
+** Key Concepts
+   + Good Teaching
+     - Good teachers become aware of their own teaching processes and of the
+       effect of these processes on student learning
+     - Good teachers are reflective and seek out colleagues to discuss their ideas
+     - Good teachers focus on their own personal growth in teaching and
+       continually refine their activities
+   + Scholarly Teaching
+     - Scholarly teachers are informed not only by the latest developments in
+       the field, but also by research about instructional design and methods of
+       assessing student learning and teaching in their field
+     - focuses on engaging with the scholarly contributions of others
+     - scholarly teaching means using the teaching and learning literature to
+       inform and enhance your practice
+   + Scholarship of teaching and learning
+     - Teachers at this stage considers a teaching problem as an opportunity for
+       scholarly investigation
+     - involves elements of discovery, application and integration
+     - intended to improve practice beyond a researchers own classroom
+     - the scholarship of teaching and learning explores a specific question
+       about teaching and learning by engaging with the literature, carrying out
+       research and making public the research results
+*** How would you distinguish the above 3
+   + Good teaching reflects on their teaching and seeks out feedback from
+     colleagues, but not scholarly research / literature
+   + Scholarly teaching informs its teaching through scholarly research /
+     literature but doesn't actively contribute to research 
+   + Scholarship of teaching and learning actively contributes to research
+     beyond their own classroom
+*** Where would your current teaching approach fit within these categorization?
+   I mostly fit within good teaching but am becoming more scholarly teaching 
+*** What might motivate you to further engage in scholarly teaching and/or scholarship of teaching and learning
+   Evidence that this will help advance my teaching capabilities and my career
+   in teaching
+
+** Scholarly Teaching: Locating the Literature
+*** Identify 2-3 teaching journals in your area of study (Computer Science)
+   + ACM Transactions of Computing Educations
+   + IEEE Transactions on Learning Technologies
+   + Innovation in Teaching and Learning in Information and Computer Science
+*** Identify a teaching topic of interest and compose a search for 2-3 related articles
+    *Topic*: Experiential learning in computer science
+    *Articles*:
+      + Experiential learning in computing accessibility education
+        Weishi Shi, Saad Khan, Yasmine El-Glaly, Samuel Malachowsky, Qi Yu, and Daniel E. Krutz. 2020. Experiential learning in computing accessibility education. In Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering: Companion Proceedings (ICSE '20). Association for Computing Machinery, New York, NY, USA, 250–251. DOI:https://doi.org/10.1145/3377812.3390901
+      + Assessing collaborative and experiential learning
+        Mihaela Sabin. 2010. Assessing collaborative and experiential learning. J. Comput. Sci. Coll. 25, 6 (June 2010), 26–33.
+      + Successful Undergraduate-level Experiential Learning Projects: A
+        Stakeholder Perspective
+        Margeret Hall, April Goettle, Connor Carson, Jess Collicott, Kim Dietz, and Kip Smith. 2020. Successful Undergraduate-level Experiential Learning Projects: A Stakeholder Perspective. In Proceedings of the 21st Annual Conference on Information Technology Education (SIGITE '20). Association for Computing Machinery, New York, NY, USA, 106–112. DOI:https://doi.org/10.1145/3368308.3415387
+*** 
+#  LocalWords:  EDUCATN

@@ -1,0 +1,58 @@
+*EDUCATN 600: Essential Skills in Teaching and Learning (I)*
+
+*End of Course Reflective Analysis*
+
+Please complete this end of course reflection before the last class.
+Your response, which should synthesize rather than summarize your
+post-workshop reflections, should be approximately 3-4 double-spaced
+pages. You may choose to explore some or all of the following questions:
+
+- What did you learn about teaching and learning in higher education?
+
+- How will you apply what you learned to your teaching, now or in the
+  future?
+
+- Did you notice themes across the workshops, or find some topics
+  especially applicable to your circumstances?
+
+- What questions do you still have about teaching and learning? What
+  would you like to know more about?
+
+*Your Name:* Curtis D'Alves
+
+*Your Reflection:*
+
+*What did you learn* 
+I enrolled in this course with the goal of learning to become a better teacher.
+The workshop on "Research in Teaching and Learning" explained that good teachers
+focus on their own personal growth in teaching and continually refine their
+activities, and scholarly teachers use literature on teaching and learning to
+inform and enhance their practice. By this standard I came into this course as a
+good teacher on their way to becoming a scholarly teacher. The same workshop
+suggested moving beyond scholarly teaching by actively 
+
+*How will you apply what you learnt*
+As part of the workshop on research in teaching, I identified a few key journals
+on education in my area of study (Computer Science): ACM Transaction of
+Computing Educations, IEEE Transactions on Learning Technologies and Innovation
+in teaching and Learning in Information and Computer Science. I intend to
+regularly keep track of publications to these journals, in particular papers on
+applied active and experiential learning. 
+
+*Did you notice themes across the workshops?*
+
+*What questions do you still have about teaching and learning?*
+#+EXCLUDE_TAGS: noexport
+* Notes                                                            :noexport:
+The workshops I took covered concepts in educational
+technologies, adult learning theories, active learning, facilitating online
+discussion, marking efficiently and effectively and research in teaching and
+learning.
+** Educational Technologies  
+** Adult Learning Theories
+** Active Learning
+** Facilitating Online Discussions
+** Marking Efficiently and Effectively
+** Research in Teaching and Learning 
+   
+#  LocalWords:  EDUCATN LocalWords
