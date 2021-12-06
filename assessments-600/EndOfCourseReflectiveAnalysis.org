@@ -31,22 +31,99 @@ activities, and scholarly teachers use literature on teaching and learning to
 inform and enhance their practice. By this standard I came into this course as a
 good teacher on their way to becoming a scholarly teacher. The same workshop
 suggested moving beyond scholarly teaching by actively taking part in conducting
-research into teaching and learning. Until this I've never considered that
-actively participating into research into teaching and learning beyond the my
-classroom can improve my teaching ability.
-
-*How will you apply what you learnt*
+research into teaching and learning. I've never before considered that actively
+participating in research into teaching and learning beyond my classroom can
+improve my teaching ability. This inspired me when looking up concepts I learned
+in previous workshops in journals I identified as core to my area of study (i.e.
+Computer Science).
 
 As part of the workshop on research in teaching, I identified a few key journals
 on education in my area of study (Computer Science): ACM Transaction of
 Computing Educations, IEEE Transactions on Learning Technologies and Innovation
 in teaching and Learning in Information and Computer Science. I intend to
 regularly keep track of publications to these journals, in particular papers on
-applied active and experiential learning. 
+applied active and experiential learning. As I continue to research learning
+strategies, I hope to better implement them in my classroom. In previous years
+of my teaching I have employed a style of lecture I learned from a influential
+teacher I had called discussion sessions. These sessions would involve me giving
+a brief overview of a concept and posing a question to the class about the
+concept. In the future I will better implement these as part of a segmented
+style lecture using questions more akin to a Socratic Questioning dialogue.
 
-*Did you notice themes across the workshops?*
+A very popular area of research was Active Learning. The workshop on active
+learning emphasized the empirically evidence showing effectiveness of active
+learning over traditional lecture styles, and I was indeed able to easily find
+often cited and large studies showing these results [1]. There are many
+different strategies for implementing active learning, when doing the workshop I
+choose the Socratic Questioning to explore. When implementing a Socratic
+Questioning style lecture, rather than leap from one question to another
+completely disjointed question, the teacher would focus on questions leading
+into a more complex understanding of the underlying concepts. Learners will
+question and challenge assumptions, exploring implications and consequences.
+Although I could not find studies with empirical evidence supporting Socratic
+Questioning, I was able to find a well-cited study that evaluated and showed
+effectiveness for debate style lectures over traditional lectures [2] (similar
+to Socratic Questioning).
 
-*What questions do you still have about teaching and learning?*
+I however don't intend to restrict myself to only use Socratic Questioning as an
+active learning strategy. There are many factors that I will consider when
+implementing different strategies including the intended audience and the medium
+through which I'm presenting. During the workshop on Adult Learning Theories, I
+learned how a class of "adult" learner are worth distinguishing from other
+intended audiences. The Socratic Dialogue was invented (and is known to be more
+effective) [3] on adult learners. Because of this I will be more likely to use
+guide a first year undergrad class than a later year or graduate course. I'll
+also need to consider the medium I'm presenting my material through. Since the
+pandemic, its seems like online learning will become more and more prevalent. In
+the workshop on facilitating online discussions, I learned different methods for
+developing online discussion sessions such as Starter-Wrapper and Save the last
+Word for me. Certain strategies (like Starter-Wrapper) can be easily fused with
+active learning strategies like Socratic Questioning.
+
+A crucial aspect to online teaching is the use of technologies that make it
+possible. I learned about how different technologies can be used to aid the
+learning experience in the workshop on Educational Technologies. Although I had
+known about them before, this workshop reminded me of the advantages to
+developing open courseware. I intend to make as much of my courseware as
+possible open in the future. In my field (Computer Science and Software
+development) we use a cloud storage platform for collaborative project
+management called GitHub to store and develop open source software. During the
+workshop on Educational Technologies I investigated how to use it in a teaching
+setting. I was interested in its current use in educational institutions, so I
+found a well cited study on its use emergence as a collaborative platform for
+education [4]. I plan to host my future courseware on there, were students can
+identify issues and suggest changes (as it is well designed too). I will also
+have students host their assignments on GitHub (as I have in the past). If
+students host assignments on GitHub (which can be made public and is often
+reviewed by potential employers) students will be more incentivized to continue
+contributing to their projects after they've been marked. This way marking and
+providing feedback will be geared towards improving a piece of work rather than
+seen as strictly criticism. I learned this in the workshop on Marking
+Efficiently and Effectively.
+
+Throughout most of the workshops I took there was an emphasis on certain key
+concepts. Identifying intended learning outcomes (ILO's) and making sure they
+are clearly articulated to the learners was a big theme. Adult learners are more
+invested in learning when they now they can practically use what they learn, so
+focusing on the acquisition of practical skills/knowledge and making it clear
+what use they will be is important in any adult learning setting. In order to
+mark effectively you need clear ILO's, and when researching the effectiveness of
+different teaching and learning strategies you need ILO's as the goal that
+signifies effectiveness. The use of strategies evaluated through research into
+teaching and learning was also an important concept addressed throughout the
+workshops. Whether they were strategies for facilitating online discussions, or
+strategies for active learning or adult learning. Although I still don't know
+the effectiveness of a lot of the strategies presented in the workshops (as
+their were know empirical studies backing most of them), they were still
+valuable to learn about and I intend to continue learning new strategies with
+quality research backing their effectiveness, perhaps even conducting research
+of my own. 
+
+
+[1] Miller, Cynthia J., and Michael J. Metz. "A comparison of professional-level faculty and student perceptions of active learning: its current use, effectiveness, and barriers." Advances in physiology education 38.3 (2014): 246-252.
+[2] Omelicheva, Mariya Y., and Olga Avdeyeva. "Teaching with lecture or debate? Testing the effectiveness of traditional versus active learning methods of instruction." PS: Political Science & Politics 41.3 (2008): 603-607.
+[3] Knowles, Malcolm S. "Andragogy: Adult learning theory in perspective." Community College Review 5.3 (1978): 9-20.
+[4] Zagalsky, Alexey, et al. "The emergence of github as a collaborative platform for education." Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing. 2015.
 #+EXCLUDE_TAGS: noexport
 * Notes                                                            :noexport:
 The workshops I took covered concepts in educational
@@ -60,4 +137,4 @@ learning.
 ** Marking Efficiently and Effectively
 ** Research in Teaching and Learning 
    
-#  LocalWords:  EDUCATN LocalWords
+#  LocalWords:  EDUCATN LocalWords courseware GitHub ILO's
