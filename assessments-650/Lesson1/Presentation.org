@@ -1,0 +1,130 @@
+* Header :ignore:
+# -*- mode: org; -*-
+
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js@3.9.0
+#+REVEAL_VERSION: 3.9.0
+#+REVEAL_THEME: sky
+
+#+OPTIONS: reveal_title_slide:nil num:nil toc:nil timestamp:nil
+
+#+MACRO: color @@html:<font color="$1">$2</font>@@
+#+MACRO: caption @@html:<font color="#5748D4">$1</font>@@
+#+MACRO: alert @@html:<font color="#4E03FC">$1</font>@@
+
+#+REVEAL_EXTRA_CSS: ./reveal_extra.css
+# add a reveal_extra.css to the current directory (use snippet reveal_css)
+# To load Org-reveal, type “M-x load-library”, then type “ox-reveal”.
+
+
+
+#+Title:  Introduction to Programming Language Paradigms
+#+Date: 2022-01-31
+#+Email: curtis.dalves@gmail.com
+#+Author: Curtis D'Alves
+
+
+* What is a Programming Language Paradigm?
+ * A {{{alert(classification of a style or approach)}}} used to express computation
+ * {{{alert(Different ways)}}} to express the {{{alert(same computation)}}}
+
+* Commonly Used Programming Paradigms
+  #+ATTR_HTML: :width 75%
+  [[file:ProgrammingParadigms.png]]
+ 
+* Imperative vs Declarative
+
+#+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+  {{{caption(Imperative Statements)}}}
+    * {{{alert(How)}}} the program will work
+    * Statements that {{{alert(instruct to do something)}}}
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+  {{{caption(Declarative Statements)}}}
+    * {{{alert(What)}}} the program will achieve
+    - Statements that {{{alert(describe something)}}}
+#+REVEAL_HTML: </div> 
+
+* Pre-Assessments
+  * What programming languages are you familiar with (if any)?
+  * Do you know if they are primarily imperative or declarative?
+    
+* Imperative vs Declarative in English
+  * Some languages emphasize the use of declarative or imperative statements
+  * Natural English is perfectly capable of expressing both, with no particular emphasis
+
+* Examples
+#+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+ {{{alert(Imperative)}}}
+ * Grab a brush and paint the can red
+ * Press the red button to turn the TV off
+ * Shut the door
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+ {{{alert(Declarative)}}}
+ * The can is filled red
+ * The TV is off
+ * The door is closed
+#+REVEAL_HTML: </div> 
+  
+* Case Study: Baking a cake
+ * {{{alert(Imperative Instructions)}}}
+   * Put eggs in a bowl, then put flour in the bowl, then stir them together to
+     result in a cake
+ * {{{alert(Declarative Instructions)}}}
+   * A cake is the combination of eggs and flour
+ * {{{alert(Challenge)}}} what distinguishes these examples?
+
+* Activity
+  * Write an example imperative or declarative statement
+  * Look at the examples written by your peers, can you guess which is which?
+
+* Programming Languages
+ #+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+ {{{alert(Primarily Imperative)}}}
+ * C/C++
+ * Python
+ * Java
+ #+REVEAL_HTML: </div>
+ 
+ #+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+ {{{alert(Primarily Declarative)}}}
+ * SQL
+ * HTML
+ * Haskell
+ #+REVEAL_HTML: </div>  
+
+* Case Study: Python
+ #+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+  {{{alert(Imperative Code)}}}
+    #+BEGIN_SRC python
+    x = 0
+    for i in range(n):
+        if i % 2 == 0: 
+            x += i
+    #+END_SRC
+ #+REVEAL_HTML: </div>
+ 
+ #+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+  {{{alert(Declarative Code)}}}
+    #+BEGIN_SRC python
+    
+    
+    x = sum(filter(even,range(n)))
+    
+    
+    #+END_SRC
+ #+REVEAL_HTML: </div>  
+
+ Same result, different paradigm
+
+* Why use different Paradigms?
+
+  * Language shapes how we think
+  * By learning different paradigms, we learn different ways to approach problems
+  * Now that you're aware of these paradigms, you're a more powerful thinker!
+
+* Thank You
+  
+#  LocalWords:  Pre LocalWords

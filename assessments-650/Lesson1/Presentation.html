@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Introduction to Programming Language Paradigms</title>
+<meta name="author" content="Curtis D'Alves"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.9.0/css/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@3.9.0/css/theme/sky.css" id="theme"/>
+
+<link rel="stylesheet" href="./reveal_extra.css"/>
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js@3.9.0/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<h1 class="title">Introduction to Programming Language Paradigms</h1><h2 class="author">Curtis D'Alves</h2><h2 class="date">2022-01-31</h2>
+</section>
+
+
+<section>
+<section id="slide-org6e9816d">
+<h2 id="org6e9816d">What is a Programming Language Paradigm?</h2>
+<ul>
+<li>A <font color="#4E03FC">classification of a style or approach</font> used to express computation</li>
+<li><font color="#4E03FC">Different ways</font> to express the <font color="#4E03FC">same computation</font></li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org89e1241">
+<h2 id="org89e1241">Commonly Used Programming Paradigms</h2>
+
+<div id="org95e5181" class="figure">
+<p><img src="ProgrammingParadigms.png" alt="ProgrammingParadigms.png" width="75%" />
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org3662a0f">
+<h2 id="org3662a0f">Imperative vs Declarative</h2>
+<div class="column" style="float:left; width: 50%">
+<p>
+<font color="#5748D4">Imperative Statements</font>
+</p>
+<ul>
+<li><font color="#4E03FC">How</font> the program will work</li>
+<li>Statements that <font color="#4E03FC">instruct to do something</font></li>
+
+</ul>
+</div>
+
+<div class="column" style="float:right; width: 50%">
+<p>
+<font color="#5748D4">Declarative Statements</font>
+</p>
+<ul>
+<li><font color="#4E03FC">What</font> the program will achieve</li>
+<li>Statements that <font color="#4E03FC">describe something</font></li>
+
+</ul>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org5c3110d">
+<h2 id="org5c3110d">Pre-Assessments</h2>
+<ul>
+<li>What programming languages are you familiar with (if any)?</li>
+<li>Do you know if they are primarily imperative or declarative?</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org6aa7102">
+<h2 id="org6aa7102">Imperative vs Declarative in English</h2>
+<ul>
+<li>Some languages emphasize the use of declarative or imperative statements</li>
+<li>Natural English is perfectly capable of expressing both, with no particular emphasis</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgd01d217">
+<h2 id="orgd01d217">Examples</h2>
+<div class="column" style="float:left; width: 50%">
+<p>
+<font color="#4E03FC">Imperative</font>
+</p>
+<ul>
+<li>Grab a brush and paint the can red</li>
+<li>Press the red button to turn the TV off</li>
+<li>Shut the door</li>
+
+</ul>
+</div>
+
+<div class="column" style="float:right; width: 50%">
+<p>
+<font color="#4E03FC">Declarative</font>
+</p>
+<ul>
+<li>The can is filled red</li>
+<li>The TV is off</li>
+<li>The door is closed</li>
+
+</ul>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-orga8dd7e2">
+<h2 id="orga8dd7e2">Case Study: Baking a cake</h2>
+<ul>
+<li><font color="#4E03FC">Imperative Instructions</font>
+<ul>
+<li>Put eggs in a bowl, then put flour in the bowl, then stir them together to
+result in a cake</li>
+
+</ul></li>
+<li><font color="#4E03FC">Declarative Instructions</font>
+<ul>
+<li>A cake is the combination of eggs and flour</li>
+
+</ul></li>
+<li><font color="#4E03FC">Challenge</font> what distinguishes these examples?</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orge6b345d">
+<h2 id="orge6b345d">Activity</h2>
+<ul>
+<li>Write an example imperative or declarative statement</li>
+<li>Look at the examples written by your peers, can you guess which is which?</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org6825d2b">
+<h2 id="org6825d2b">Programming Languages</h2>
+<div class="column" style="float:left; width: 50%">
+<p>
+<font color="#4E03FC">Primarily Imperative</font>
+</p>
+<ul>
+<li>C/C++</li>
+<li>Python</li>
+<li>Java</li>
+
+</ul>
+</div>
+
+<div class="column" style="float:right; width: 50%">
+<p>
+<font color="#4E03FC">Primarily Declarative</font>
+</p>
+<ul>
+<li>SQL</li>
+<li>HTML</li>
+<li>Haskell</li>
+
+</ul>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-orgb31d51d">
+<h2 id="orgb31d51d">Case Study: Python</h2>
+<div class="column" style="float:left; width: 50%">
+<p>
+<font color="#4E03FC">Imperative Code</font>
+</p>
+<div class="org-src-container">
+
+<pre class="src src-python"><span style="color: #715ab1;">x</span> = <span style="color: #4e3163;">0</span>
+<span style="color: #3a81c3; font-weight: bold;">for</span> i <span style="color: #3a81c3; font-weight: bold;">in</span> <span style="color: #3a81c3;">range</span><span style="color: #3a81c3;">(</span>n<span style="color: #3a81c3;">)</span>:
+    <span style="color: #3a81c3; font-weight: bold;">if</span> i % <span style="color: #4e3163;">2</span> == <span style="color: #4e3163;">0</span>: 
+        <span style="color: #715ab1;">x</span> += i
+</pre>
+</div>
+</div>
+
+<div class="column" style="float:right; width: 50%">
+<p>
+<font color="#4E03FC">Declarative Code</font>
+</p>
+<div class="org-src-container">
+
+<pre class="src src-python">
+
+<span style="color: #715ab1;">x</span> = <span style="color: #3a81c3;">sum</span><span style="color: #3a81c3;">(</span><span style="color: #3a81c3;">filter</span><span style="color: #6c3163;">(</span>even,<span style="color: #3a81c3;">range</span><span style="color: #2d9574;">(</span>n<span style="color: #2d9574;">)</span><span style="color: #6c3163;">)</span><span style="color: #3a81c3;">)</span>
+
+
+</pre>
+</div>
+</div>
+
+<p>
+Same result, different paradigm
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-orgbc5b51b">
+<h2 id="orgbc5b51b">Why use different Paradigms?</h2>
+<ul>
+<li>Language shapes how we think</li>
+<li>By learning different paradigms, we learn different ways to approach problems</li>
+<li>Now that you're aware of these paradigms, you're a more powerful thinker!</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org123ff72">
+<h2 id="org123ff72">Thank You</h2>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.9.0/lib/js/head.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@3.9.0/js/reveal.js"></script>
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+mouseWheel: false,
+fragmentInURL: false,
+hashOneBasedIndex: false,
+pdfSeparateFragments: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'convex', // see README of reveal.js for options
+transitionSpeed: 'default',
+
+// Optional libraries used to extend reveal.js
+dependencies: [
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.9.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.9.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.9.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.9.0/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js@3.9.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});
+</script>
+</body>
+</html>
