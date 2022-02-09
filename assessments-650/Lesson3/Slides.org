@@ -1,0 +1,53 @@
+* Header :ignore:
+# -*- mode: org; -*-
+
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js@3.9.0
+#+REVEAL_VERSION: 3.9.0
+#+REVEAL_THEME: sky
+
+#+OPTIONS: reveal_title_slide:nil num:nil toc:nil timestamp:nil
+
+#+MACRO: color @@html:<font color="$1">$2</font>@@
+#+MACRO: caption @@html:<font color="#5748D4">$1</font>@@
+#+MACRO: alert @@html:<font color="#4E03FC">$1</font>@@
+
+#+REVEAL_EXTRA_CSS: ./reveal_extra.css
+# add a reveal_extra.css to the current directory (use snippet reveal_css)
+# To load Org-reveal, type “M-x load-library”, then type “ox-reveal”.
+
+
+
+#+Title: {{{caption(Intro to Functions!)}}}
+#+Date: 2022-01-31
+#+Email: curtis.dalves@gmail.com
+#+Author: Curtis D'Alves
+
+
+* {{{caption(What is a Function)}}}
+
+ #+begin_export html
+ <img src="function.svg" style="background:none; border:none; box-shadow:none; width:200%;" />
+ #+end_export 
+
+* {{{caption(Function Evaluation)}}}
+  [[file:functionmachine.jpg]]
+  
+* {{{caption(Example Evaluation)}}}
+#+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+  \[ f(x) = x^2 \] 
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+  ...
+  \[ f(-1) = (-1)^2 = 1 \]
+  \[ f(0) = 0^2 = 0 \]
+  \[ f(1) = 1^2 = 1 \]
+  \[ f(2) = 2^2 = 4 \]
+  \[ f(3) = 3^2 = 9 \]
+  ...
+#+REVEAL_HTML: </div> 
+
+* {{{caption(Functions In Mathematics)}}}
+  
+  #+ATTR_HTML: :width 50%
+  [[file:plot.png]]

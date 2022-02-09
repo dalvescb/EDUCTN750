@@ -1,0 +1,133 @@
+# Hey Emacs, this is a -*- org -*- file ...
+#+TITLE:     Intro To Types!
+#+AUTHOR:    Curtis D'Alves
+#+EMAIL:     curtis.dalves@gmail.com
+#+DESCRIPTION: Org mode syntax example
+#+KEYWORDS:  syntax, org, document
+#+LANGUAGE:  en
+#+OPTIONS:   H:5 num:nil toc:2 p:t
+
+#+SETUPFILE: ./readtheorg.setup
+
+#+PROPERTY:  header-args :eval never-export
+
+This is a sample asynchronous lesson on introductory type theory in computer
+science developed using the BOPPPS model for submission to *EDUCATION 650* at
+*McMaster University*
+
+* Introduction
+
+** What is a type?
+  * A type is a name for a collection of related values. For example,
+    ~True~ and ~False~ are two *values* of *type* ~Bool~
+  * The *Python* programming language has the following four
+    *primitive types*
+   #+caption:  Primitive Python Types
+   | Type      | Values                        |
+   |-----------+-------------------------------|
+   | ~Integer~ | -2,-1,0,1,2,etc               |
+   | ~Float~   | -0.5,1.5,1000.0,etc           |
+   | ~String~  | "Hello",'Hello',"Goodbye",etc |
+   | ~Bool~    | True,False                    |
+   
+*** Integers
+   An ~Integer~ is any whole number from negative infinity to infinity
+*** Float
+   ~Float~ stands for "floating point number". It is used to represent numbers
+   with a decimal figure
+*** String
+   A ~String~ is any "string" of characters enclosed inside double or single
+   quotes, such as ~"Hello"~ or ~'hello'~
+*** Bool
+   A ~Bool~ or Boolean is a ~True~ or ~False~ value
+
+** Running Code With Replit.com
+  * For the purposes of this lesson, we'll be coding in the *Python* programming
+    language
+  * To run python code (if you don't already have a python editor), I recommend
+    using the online coding platform [[https://replit.com/languages/python3]]
+  * Please watch the following video for a quick overview of how to use replit
+    
+#+HTML: <iframe width="420" height="315"
+#+HTML: src="https://www.youtube.com/embed/OxjoO5_07nw" frameborder="0" allowfullscreen>
+#+HTML: </iframe>
+
+* Learning Objective
+  By the end of this lesson, you'll be able to recognize values for the four
+  primitive types and fix basic errors caused by type mismatch
+
+
+* Playing With Types
+  In this section, you'll learn how to use some simple functions like ~print~
+  and ~+~ and how they interact with different types. Please try *running all
+  the code you see here with replit*
+
+** The print function
+   * As you've already seen, the ~print~ function can be used to output strings
+     to the screen. For example, to output ~Curtis is Great~ use the code
+     #+BEGIN_SRC python :eval no
+     print("Curtis is Great")
+     #+END_SRC
+   * You can also give the ~print~ function other types, such as integers
+     #+BEGIN_SRC python :eval no
+     print(1)
+     #+END_SRC
+** The + function
+   * The ~+~ function can be used to combine ~Strings~, for example
+     #+BEGIN_SRC python :eval no
+     print("Hello " + "World")
+     #+END_SRC
+   * But the ~+~ function can also be used to add ~Integers~ or ~Floats~, for example
+     #+BEGIN_SRC python :eval no
+     print(1 + 2)
+     #+END_SRC
+   * *Note* the above example does not output ~1 + 2~ but rather ~3~ (i.e. the
+     result of an addition. This behavior (the same function having different
+     functionality for different types) is known as *overloading*
+     
+** Type errors     
+   * What happens when you attempt to combine a ~String~ and an ~Int~ using ~+~?
+ 
+     #+BEGIN_SRC python :eval no
+     x = 1
+     print("x = " + x)
+     #+END_SRC
+   * You get the following error
+     #+BEGIN_EXAMPLE
+     Traceback (most recent call last):
+        File "main.py", line 2, in <module>
+           print("x = " + x)
+     TypeError: can only concatenate str (not "int") to str
+     #+END_EXAMPLE
+   * This is known as a ~type error~, it can be fixed by converting ~x~ to a
+     ~String~ using the ~str~ function
+     
+     #+BEGIN_SRC python :eval no
+     x = 1
+     print("x = " + str(x))
+     #+END_SRC
+
+* Challenge
+  * Just like the ~str~ function converts a value of a different type to type
+    ~String~, the ~int~ function converts a value to type ~Integer~
+  * Use the ~int~ function to fix the following code
+    #+BEGIN_SRC python :eval no
+    x = "5"
+    print(1 + x)
+    #+END_SRC
+    
+* Summary
+  * Functions in Python are built for easy *overloading*, which makes for very
+    powerful functionality, but also causes many type errors
+  * Being able to identify type errors and fix them by performing the correct
+    conversions is a necessary skill for being an effective programmer
+    
+* Footnotes
+  
+
+[fn:myfootnote] ALL SOFTWARE HERE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+#  LocalWords:  BOPPS Repl Replit com Bool replit
+
